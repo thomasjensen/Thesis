@@ -1,0 +1,44 @@
+;; RefTeX parse info file
+;; File: /Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex
+;; User: thomasjensen (Thomas Jensen)
+
+(set reftex-docstruct-symbol '(
+
+
+(xr nil "\\\\\\\\\\\\")
+
+(index-tags)
+
+(is-multi nil)
+
+(bibview-cache ("BjurulfElgstrom2004" . "Bjurulf & Elgstrom 2004, Negot. Transp. Role Inst., JCMS: Journal of Common Market Studies 42:249") ("Jonsson2000" . "J\\\"onsson & Ole Elgstr\\\"om 2000, Negot. Europ. Union: barg. or, Journal of European Public Policy 7:684") ("ElgstromJonsson2000" . "J\\\"onsson 2000, Negot. Europ. Union: barg. or, Journal of European Public Policy 7:684"))
+
+(master-dir . "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/")
+
+(label-numbers)
+
+(bof "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex")
+
+(toc "toc" "    1 Voting in the Council " "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex" nil 2 "1" "\\section{Voting in the Council }" 234)
+
+(toc "toc" "    2 Voting as Signaling in the Council" "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex" nil 2 "2" "\\section{Voting as Signaling in the Council}" 6496)
+
+(toc "toc" "      2.1 The Spatial Model of Bargaining" "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex" nil 3 "2.1" "\\subsection{The Spatial Model of Bargaining}" 6542)
+
+("fig:matillalane" "f" "The One Dimensional Spatial Model" "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex" nil)
+
+("fig:twodimensions" "f" "A Two Dimensional Spatial Model" "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex" nil)
+
+(toc "toc" "      2.2 Diffuse Reciprocity" "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex" nil 3 "2.2" "\\subsection{Diffuse Reciprocity}" 14558)
+
+(toc "toc" "      2.3 Diffuse Reciprocity and Signaling" "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex" nil 3 "2.3" "\\subsection{Diffuse Reciprocity and Signaling}" 21234)
+
+("tab:signaling" "t" "Types of Signalin in the Council" "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex" nil)
+
+(toc "toc" "    3 Normative Behavior and Diffuse Reciprocity" "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex" nil 2 "3" "\\section{Normative Behavior and Diffuse Reciprocity}" 26100)
+
+(bib "/Users/thomasjensen/Documents/library.bib")
+
+(eof "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex")
+))
+

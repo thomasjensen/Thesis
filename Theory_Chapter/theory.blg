@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2010)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: theory.aux
+The style file: apsr.bst
+Database file #1: /Users/thomasjensen/Documents/library.bib
+Repeated entry---line 3163 of file /Users/thomasjensen/Documents/library.bib
+ : @unpublished{Hagemann2007
+ :                          ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Elster1989"
+Warning--I didn't find a database entry for "Bicchieri2006"
+Warning--I didn't find a database entry for "Beck1992"
+Warning--I didn't find a database entry for "EpsteinSegalSpaeth2001"
+You've used 50 entries,
+            2874 wiz_defined-function locations,
+            976 strings with 11835 characters,
+and the built_in function-call counts, 166616 in all, are:
+= -- 26956
+> -- 1792
+< -- 0
++ -- 12190
+- -- 662
+* -- 13953
+:= -- 34024
+add.period$ -- 200
+call.type$ -- 50
+change.case$ -- 650
+chr.to.int$ -- 50
+cite$ -- 50
+duplicate$ -- 757
+empty$ -- 1777
+format.name$ -- 721
+if$ -- 29843
+int.to.chr$ -- 5
+int.to.str$ -- 0
+missing$ -- 57
+newline$ -- 212
+num.names$ -- 553
+pop$ -- 186
+preamble$ -- 1
+purify$ -- 750
+quote$ -- 0
+skip$ -- 627
+stack$ -- 0
+substring$ -- 37715
+swap$ -- 93
+text.length$ -- 700
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 186
+warning$ -- 0
+while$ -- 1183
+width$ -- 0
+write$ -- 673
+(There was 1 error message)
