@@ -5,56 +5,61 @@ A level-1 auxiliary file: Theory_Chapter/theory.aux
 A level-1 auxiliary file: VoteChoice_Chapter/VoteChoice.aux
 The style file: apsr.bst
 Database file #1: /Users/thomasjensen/Documents/library.bib
-Repeated entry---line 5133 of file /Users/thomasjensen/Documents/library.bib
+Repeated entry---line 5149 of file /Users/thomasjensen/Documents/library.bib
  : @unpublished{Hagemann2007
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5549 of file /Users/thomasjensen/Documents/library.bib
+Repeated entry---line 5573 of file /Users/thomasjensen/Documents/library.bib
  : @article{ElgstromJonsson2000
  :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5979 of file /Users/thomasjensen/Documents/library.bib
+ : @article{Franchino2004
+ :                       ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Bicchieri2006"
 Warning--I didn't find a database entry for "Beck1992"
 Warning--I didn't find a database entry for "EpsteinSegalSpaeth2001"
-You've used 61 entries,
+Warning--empty note in HoylandHansen2010
+You've used 65 entries,
             2874 wiz_defined-function locations,
-            1038 strings with 13608 characters,
-and the built_in function-call counts, 199055 in all, are:
-= -- 32199
-> -- 2076
+            1066 strings with 14377 characters,
+and the built_in function-call counts, 210995 in all, are:
+= -- 34139
+> -- 2175
 < -- 0
-+ -- 14517
-- -- 773
-* -- 16622
-:= -- 40714
-add.period$ -- 244
-call.type$ -- 61
-change.case$ -- 793
-chr.to.int$ -- 61
-cite$ -- 61
-duplicate$ -- 915
-empty$ -- 2148
-format.name$ -- 850
-if$ -- 35633
++ -- 15378
+- -- 812
+* -- 17613
+:= -- 43176
+add.period$ -- 260
+call.type$ -- 65
+change.case$ -- 845
+chr.to.int$ -- 65
+cite$ -- 66
+duplicate$ -- 970
+empty$ -- 2275
+format.name$ -- 895
+if$ -- 37759
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 67
-newline$ -- 261
-num.names$ -- 669
-pop$ -- 236
+missing$ -- 70
+newline$ -- 280
+num.names$ -- 711
+pop$ -- 248
 preamble$ -- 1
-purify$ -- 915
+purify$ -- 975
 quote$ -- 0
-skip$ -- 759
+skip$ -- 805
 stack$ -- 0
-substring$ -- 45025
-swap$ -- 112
-text.length$ -- 854
+substring$ -- 47731
+swap$ -- 119
+text.length$ -- 910
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 228
-warning$ -- 0
-while$ -- 1435
+type$ -- 244
+warning$ -- 1
+while$ -- 1527
 width$ -- 0
-write$ -- 821
-(There were 2 error messages)
+write$ -- 875
+(There were 3 error messages)
