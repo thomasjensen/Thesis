@@ -1,76 +1,60 @@
 This is BibTeX, Version 0.99d (TeX Live 2010)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: master.aux
+A level-1 auxiliary file: Theory_Chapter/theory.aux
+A level-1 auxiliary file: VoteChoice_Chapter/VoteChoice.aux
 The style file: apsr.bst
 Database file #1: /Users/thomasjensen/Documents/library.bib
-Repeated entry---line 120 of file /Users/thomasjensen/Documents/library.bib
- : @article{GabelHix2002
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3163 of file /Users/thomasjensen/Documents/library.bib
+Repeated entry---line 5133 of file /Users/thomasjensen/Documents/library.bib
  : @unpublished{Hagemann2007
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4002 of file /Users/thomasjensen/Documents/library.bib
- : @article{Golub1999
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5873 of file /Users/thomasjensen/Documents/library.bib
+Repeated entry---line 5549 of file /Users/thomasjensen/Documents/library.bib
  : @article{ElgstromJonsson2000
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6049 of file /Users/thomasjensen/Documents/library.bib
- : @article{Golub1999
- :                   ,
-I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Elster1989"
 Warning--I didn't find a database entry for "Bicchieri2006"
 Warning--I didn't find a database entry for "Beck1992"
 Warning--I didn't find a database entry for "EpsteinSegalSpaeth2001"
-Warning--I didn't find a database entry for "Lewis2000a"
-Warning--I didn't find a database entry for "Zimmer2005"
-Warning--empty publisher in ArreguiThomsonStokman2006
-Warning--empty note in Gelman2003a
-Warning--empty note in Klok2005
-You've used 76 entries,
+You've used 61 entries,
             2874 wiz_defined-function locations,
-            1132 strings with 16390 characters,
-and the built_in function-call counts, 258031 in all, are:
-= -- 41823
-> -- 2743
-< -- 1
-+ -- 18982
-- -- 1013
-* -- 21657
-:= -- 52574
-add.period$ -- 306
-call.type$ -- 76
-change.case$ -- 988
-chr.to.int$ -- 76
-cite$ -- 79
-duplicate$ -- 1155
-empty$ -- 2668
-format.name$ -- 1112
-if$ -- 46221
+            1038 strings with 13608 characters,
+and the built_in function-call counts, 199055 in all, are:
+= -- 32199
+> -- 2076
+< -- 0
++ -- 14517
+- -- 773
+* -- 16622
+:= -- 40714
+add.period$ -- 244
+call.type$ -- 61
+change.case$ -- 793
+chr.to.int$ -- 61
+cite$ -- 61
+duplicate$ -- 915
+empty$ -- 2148
+format.name$ -- 850
+if$ -- 35633
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 83
-newline$ -- 336
-num.names$ -- 838
-pop$ -- 292
+missing$ -- 67
+newline$ -- 261
+num.names$ -- 669
+pop$ -- 236
 preamble$ -- 1
-purify$ -- 1140
+purify$ -- 915
 quote$ -- 0
-skip$ -- 950
+skip$ -- 759
 stack$ -- 0
-substring$ -- 58576
-swap$ -- 150
-text.length$ -- 1065
+substring$ -- 45025
+swap$ -- 112
+text.length$ -- 854
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 284
-warning$ -- 3
-while$ -- 1790
+type$ -- 228
+warning$ -- 0
+while$ -- 1435
 width$ -- 0
-write$ -- 1044
-(There were 5 error messages)
+write$ -- 821
+(There were 2 error messages)

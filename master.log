@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.27)  15 JUL 2011 10:08
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.27)  18 JUL 2011 11:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -979,24 +979,24 @@ File: ufuts.fd 2004/03/26 Fontinst v1.926 font definitions for U/futs.
 )
 LaTeX Font Info:    Font shape `U/futs/m/it' in size <14.4> not available
 (Font)              Font shape `U/futs/m/sl' tried instead on input line 1.
-LaTeX Font Info:    Try loading font information for FML+futmi on input line 3.
+LaTeX Font Info:    Try loading font information for FML+futmi on input line 4.
 
 
 (/usr/local/texlive/2010/texmf-dist/tex/latex/fourier/fmlfutmi.fd
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 3.
+(Font)              scaled to size 10.07397pt on input line 4.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 3.
+(Font)              scaled to size 7.63599pt on input line 4.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 3.
+(Font)              scaled to size 5.51999pt on input line 4.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 3.
+(Font)              scaled to size 10.07397pt on input line 4.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 3.
+(Font)              scaled to size 7.63599pt on input line 4.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 3.
+(Font)              scaled to size 5.51999pt on input line 4.
 
 Underfull \vbox (badness 6110) has occurred while \output is active []
 
@@ -1005,7 +1005,7 @@ Underfull \vbox (badness 6110) has occurred while \output is active []
 
 
 {/usr/local/texlive/2010/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (2.94867pt too wide) in paragraph at lines 7--8
+Overfull \hbox (2.94867pt too wide) in paragraph at lines 8--9
 \T1/futs/m/n/10.95 the votes to po-si-tion mem-ber states and gov-ern-ments in 
 a one- or two-dimensional
  []
@@ -1015,12 +1015,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 17.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 18.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-Overfull \hbox (0.81349pt too wide) in paragraph at lines 23--24
+Overfull \hbox (0.81349pt too wide) in paragraph at lines 24--25
 \T1/futs/m/n/10.95 widespread pop-u-lar-ity within po-lit-i-cal sci-ence in the
  last 20 years (see Volden 1998;
  []
@@ -1029,40 +1029,28 @@ Overfull \hbox (0.81349pt too wide) in paragraph at lines 23--24
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
-Overfull \hbox (7.36153pt too wide) in paragraph at lines 29--30
+Overfull \hbox (7.36153pt too wide) in paragraph at lines 30--31
 \T1/futs/m/n/10.95 vides clear ex-pec-ta-tions to re-sult of the ne-go-ti-a-tio
 ns and can ac-co-mo-date log rolling.
  []
 
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 33.
 
-Overfull \hbox (2.28018pt too wide) in paragraph at lines 35--36
+Overfull \hbox (2.28018pt too wide) in paragraph at lines 36--37
 \T1/futs/m/n/10.95 A very pop-u-lar model of bar-gain-ing in po-lit-i-cal sci-e
 nce is the spa-tial model (Downs,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 []\T1/futs/m/n/7 Left-most
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 []\T1/futs/m/n/7 Right-most
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[6]
-Underfull \vbox (badness 7814) has occurred while \output is active []
-
- [7]
-Underfull \vbox (badness 4595) has occurred while \output is active []
-
- [8]
-[9] [10]
+[6] [7] [8] [9] [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
@@ -1074,33 +1062,25 @@ Underfull \vbox (badness 1460) has occurred while \output is active []
 
  [14]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 158.
-
-
-Package natbib Warning: Citation `Elster1989' on page 15 undefined on input lin
-e 158.
-
-
-Package natbib Warning: Citation `Elster1989' on page 15 undefined on input lin
-e 158.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 159.
 
 
 Package natbib Warning: Citation `Bicchieri2006' on page 15 undefined on input 
-line 158.
+line 159.
 
 [15] [16]
 
 Package natbib Warning: Citation `Beck1992' on page 17 undefined on input line 
-172.
+173.
 
 
-Overfull \hbox (2.63478pt too wide) in paragraph at lines 172--173
+Overfull \hbox (2.63478pt too wide) in paragraph at lines 173--174
 \T1/futs/m/n/10.95 in-di-ca-tor for nor-ma-tive be-hav-ior has not been easy. T
 wo ap-proaches have achieved
  []
 
 
-Overfull \hbox (6.81352pt too wide) in paragraph at lines 174--175
+Overfull \hbox (6.81352pt too wide) in paragraph at lines 175--176
 \T1/futs/m/n/10.95 in small groups A com-mon ex-per-i-ment is to let two play-e
 rs play a pris-on-ers dilemma
  []
@@ -1108,14 +1088,14 @@ rs play a pris-on-ers dilemma
 [17]
 
 Package natbib Warning: Citation `EpsteinSegalSpaeth2001' on page 18 undefined 
-on input line 176.
+on input line 177.
 
 [18] [19]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20]
 [21]
-Overfull \hbox (8.433pt too wide) in paragraph at lines 203--204
+Overfull \hbox (8.433pt too wide) in paragraph at lines 204--205
 []\T1/futs/m/n/10.95 Chapter ?? will ex-am-ine the time de-pen-dent as-pect of 
 dif-fuse reci-procity through
  []
@@ -1127,156 +1107,133 @@ dif-fuse reci-procity through
 
 
 
-] [24] [25] [26]
-Overfull \hbox (0.6873pt too wide) in paragraph at lines 62--63
+]
+Overfull \hbox (3.90135pt too wide) in paragraph at lines 25--26
+\T1/futs/m/n/10.95 the-ory (see El-ster 1989 and Schim-melfen-nig 2000 for good
+ overviews and cri-tiques).
+ []
+
+[24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 40.
+
+[26] [27] [28]
+Overfull \hbox (0.6873pt too wide) in paragraph at lines 74--75
  \T1/futs/b/n/10.95 Vot-ing Rule[] \T1/futs/m/n/10.95 A cat-e-gor-i-cal vari-ab
 le con-trol-ling for whether una-nim-ity or QMV
  []
 
-[27] [28]
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[29] [30]
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 []|\T1/futs/m/n/10.95 Mean Coun-cil
  []
 
-
-Underfull \vbox (badness 2293) has occurred while \output is active []
-
- [29]
-[30]
-Overfull \hbox (143.43144pt too wide) in paragraph at lines 138--158
+[31]
+Overfull \hbox (143.43144pt too wide) in paragraph at lines 150--170
 []\T1/futs/m/n/10.95 [Model with Coun-cil Dum-mies] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--158
+Underfull \hbox (badness 10000) in paragraph at lines 150--170
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--181
+Underfull \hbox (badness 10000) in paragraph at lines 173--193
 []\T1/futs/m/n/10.95 [Model with Coun-cil Dum-mies and Con-trol-ling for Dossie
 r Type]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--181
+Underfull \hbox (badness 10000) in paragraph at lines 173--193
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--181
+Underfull \hbox (badness 10000) in paragraph at lines 173--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--204
+Underfull \hbox (badness 10000) in paragraph at lines 196--216
 []\T1/futs/m/n/10.95 [Model with Coun-cil Dum-mies and Con-trol-ling for Vot-in
 g Rule]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--204
+Underfull \hbox (badness 10000) in paragraph at lines 196--216
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--204
+Underfull \hbox (badness 10000) in paragraph at lines 196--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--227
+Underfull \hbox (badness 10000) in paragraph at lines 219--239
 []\T1/futs/m/n/10.95 [Model with Coun-cil Dum-mies and Con-trol-ling for Salien
 ce]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--227
+Underfull \hbox (badness 10000) in paragraph at lines 219--239
 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31]
-[32] [33]
-Overfull \hbox (26.02551pt too wide) in paragraph at lines 287--308
+[32] [33] [34]
+Overfull \hbox (26.02551pt too wide) in paragraph at lines 299--320
  [][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
-Overfull \hbox (8.0618pt too wide) in paragraph at lines 314--315
+ [35]
+Overfull \hbox (8.0618pt too wide) in paragraph at lines 326--327
 \T1/futs/m/n/10.95 from the EU than you give, and be-ing pow-er-ful re-duces di
 s-sent-ing be-hav-ior, whereas
  []
 
-[35]
-Overfull \hbox (28.0612pt too wide) in paragraph at lines 328--339
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36]
+[37]
+Overfull \hbox (28.0612pt too wide) in paragraph at lines 340--351
  [] 
  []
 
-) [36] [37] [38] (./master.bbl [39
+) [38] [39] [40] (./master.bbl [41
 
 
 ]
-Underfull \hbox (badness 2173) in paragraph at lines 96--100
-[]\T1/futs/m/n/10.95 Elgstrom, Ole, Bo Bju-rulf, Jonas Jo-hans-son and An-ders 
-San-ner-st-edt. 2001.
+Underfull \hbox (badness 10000) in paragraph at lines 82--85
+\T1/futs/b/n/10.95 URL: \T1/futs/m/it/10.95 http://www.euractiv.com/en/future-e
+u/denmark-rebuilds-borders-
  []
 
-[40]
-Underfull \hbox (badness 1715) in paragraph at lines 191--196
-\T1/futs/m/it/10.95 Dead-lock (The-o-ries of In-sti-tu-tional De-sign) (En-glis
-h and En-glish Edi-tion)\T1/futs/m/n/10.95 .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 191--196
-\T1/futs/b/n/10.95 URL: \T1/futs/m/it/10.95 http://www.amazon.com/Policy-Making
--Diversity-Europe-Deadlock-
- []
-
-[41]
-Underfull \hbox (badness 10000) in paragraph at lines 204--208
-\T1/futs/b/n/10.95 URL: \T1/futs/m/it/10.95 http://www.amazon.co.uk/Political-S
-ystem-European-
- []
-
-
-Overfull \hbox (325.85326pt too wide) in paragraph at lines 239--243
+[42]
+Overfull \hbox (325.85326pt too wide) in paragraph at lines 171--175
 \T1/futs/b/n/10.95 URL: \T1/futs/m/it/10.95 http://www.informaworld.com/openurl
 ?genre=article&doi=10.1080/13501760010014902&magic=crossref||D404A21C5BB053405B
 1A640AFFD44AE3 
  []
 
-[42] [43]
-Overfull \hbox (336.54045pt too wide) in paragraph at lines 371--375
-\T1/futs/b/n/10.95 URL: \T1/futs/m/it/10.95 http://www.informaworld.com/openurl
-?genre=article&doi=10.1080/1350176032000046903&magic=crossref||D404A21C5BB05340
-5B1A640AFFD44AE3 
- []
-
-
-Overfull \hbox (336.54045pt too wide) in paragraph at lines 377--381
-\T1/futs/b/n/10.95 URL: \T1/futs/m/it/10.95 http://www.informaworld.com/openurl
-?genre=article&doi=10.1080/1350176032000046903&magic=crossref||D404A21C5BB05340
-5B1A640AFFD44AE3 
- []
-
-[44]
-Underfull \hbox (badness 1077) in paragraph at lines 428--433
+[43] [44]
+Underfull \hbox (badness 1077) in paragraph at lines 327--332
 []\T1/futs/m/n/10.95 Warntjen, An-dreas. 2010.  ``Be-tween bar-gain-ing and de-
 lib-er-a-tion: decision-
  []
 
 
-Overfull \hbox (325.85326pt too wide) in paragraph at lines 428--433
+Overfull \hbox (325.85326pt too wide) in paragraph at lines 327--332
 \T1/futs/b/n/10.95 URL: \T1/futs/m/it/10.95 http://www.informaworld.com/openurl
 ?genre=article&doi=10.1080/13501761003748641&magic=crossref||D404A21C5BB053405B
 1A640AFFD44AE3 
@@ -1289,10 +1246,10 @@ Package natbib Warning: There were undefined citations.
 [45] (./master.aux (./Theory_Chapter/theory.aux)
 (./VoteChoice_Chapter/VoteChoice.aux)) ) 
 Here is how much of TeX's memory you used:
- 15042 strings out of 493763
- 262270 string characters out of 3144954
- 357562 words of memory out of 3000000
- 18027 multiletter control sequences out of 15000+200000
+ 14998 strings out of 493763
+ 261412 string characters out of 3144954
+ 358977 words of memory out of 3000000
+ 17983 multiletter control sequences out of 15000+200000
  98473 words of font info for 83 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  61i,12n,55p,4752b,728s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1303,7 +1260,7 @@ fourier/fourier-orns.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/adobe/
 utopia/putb8a.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/adobe/utopia/
 putr8a.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/adobe/utopia/putr8a.
 pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on master.pdf (45 pages, 200737 bytes).
+Output written on master.pdf (45 pages, 200844 bytes).
 PDF statistics:
  179 PDF objects out of 1000 (max. 8388607)
  124 compressed objects within 2 object streams
