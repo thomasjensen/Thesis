@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.27)  18 JUL 2011 16:22
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.27)  18 JUL 2011 17:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1182,86 +1182,78 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 2005) has occurred while \output is active []
 
  [26]
+[27]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 58.
-
-[27] [28] [29]
-Overfull \hbox (0.6873pt too wide) in paragraph at lines 92--93
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 70.
+ [28] [29] [30]
+Overfull \hbox (0.6873pt too wide) in paragraph at lines 104--105
  \T1/futs/b/n/10.95 Vot-ing Rule[] \T1/futs/m/n/10.95 A cat-e-gor-i-cal vari-ab
 le con-trol-ling for whether una-nim-ity or QMV
  []
 
-[30] [31]
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[31] [32]
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
 []|\T1/futs/m/n/10.95 Mean Coun-cil
  []
 
-
-Underfull \vbox (badness 2293) has occurred while \output is active []
-
- [32]
 [33]
-Overfull \hbox (143.43144pt too wide) in paragraph at lines 168--188
+Overfull \hbox (143.43144pt too wide) in paragraph at lines 180--200
 []\T1/futs/m/n/10.95 [Model with Coun-cil Dum-mies] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--188
+Underfull \hbox (badness 10000) in paragraph at lines 180--200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--211
+Underfull \hbox (badness 10000) in paragraph at lines 203--223
 []\T1/futs/m/n/10.95 [Model with Coun-cil Dum-mies and Con-trol-ling for Dossie
 r Type]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--211
+Underfull \hbox (badness 10000) in paragraph at lines 203--223
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--211
+Underfull \hbox (badness 10000) in paragraph at lines 203--223
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--234
+Underfull \hbox (badness 10000) in paragraph at lines 226--246
 []\T1/futs/m/n/10.95 [Model with Coun-cil Dum-mies and Con-trol-ling for Vot-in
 g Rule]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--234
+Underfull \hbox (badness 10000) in paragraph at lines 226--246
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--234
+Underfull \hbox (badness 10000) in paragraph at lines 226--246
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--257
+Underfull \hbox (badness 10000) in paragraph at lines 249--269
 []\T1/futs/m/n/10.95 [Model with Coun-cil Dum-mies and Con-trol-ling for Salien
 ce]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--257
+Underfull \hbox (badness 10000) in paragraph at lines 249--269
 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34]
-[35] [36]
-Overfull \hbox (26.02551pt too wide) in paragraph at lines 317--338
+[34] [35] [36]
+Overfull \hbox (26.02551pt too wide) in paragraph at lines 329--350
  [][] 
  []
 
@@ -1269,20 +1261,24 @@ Overfull \hbox (26.02551pt too wide) in paragraph at lines 317--338
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [37]
-Overfull \hbox (8.0618pt too wide) in paragraph at lines 344--345
+Overfull \hbox (8.0618pt too wide) in paragraph at lines 356--357
 \T1/futs/m/n/10.95 from the EU than you give, and be-ing pow-er-ful re-duces di
 s-sent-ing be-hav-ior, whereas
  []
 
-[38]
-Overfull \hbox (28.0612pt too wide) in paragraph at lines 358--369
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+[39]
+Overfull \hbox (28.0612pt too wide) in paragraph at lines 370--381
  [] 
  []
 
-) [39] [40] [41] (./master.bbl [42
+) [40] [41] [42] (./master.bbl [43
 
 
-] [43]
+]
 Underfull \hbox (badness 1838) in paragraph at lines 73--78
 []\T1/futs/m/n/10.95 Elgie, Robert. 2006.  ``Why Do Gov-ern-ments Del-e-gate Au
 -thor-ity to Quasi-
@@ -1319,24 +1315,28 @@ Overfull \hbox (325.85326pt too wide) in paragraph at lines 351--356
 Package natbib Warning: There were undefined citations.
 
 [48] (./master.aux (./Theory_Chapter/theory.aux)
-(./VoteChoice_Chapter/VoteChoice.aux)) ) 
+(./VoteChoice_Chapter/VoteChoice.aux))
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 15611 strings out of 493763
- 268584 string characters out of 3144954
- 367579 words of memory out of 3000000
- 18577 multiletter control sequences out of 15000+200000
+ 15607 strings out of 493763
+ 268530 string characters out of 3144954
+ 369579 words of memory out of 3000000
+ 18573 multiletter control sequences out of 15000+200000
  99432 words of font info for 86 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  61i,12n,55p,4752b,734s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2010/texmf-dist/fon
-ts/enc/dvips/base/8r.enc}</usr/local/texlive/2010/texmf-dist/fonts/type1/public
-/fourier/fourier-mlit.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/publi
-c/fourier/fourier-ms.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public
-/fourier/fourier-orns.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/adobe
-/utopia/putb8a.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/adobe/utopia
-/putr8a.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/adobe/utopia/putr8a
-.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on master.pdf (48 pages, 209925 bytes).
+{/usr/local/texlive/2010/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2010/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/
+texlive/2010/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/t
+exlive/2010/texmf-dist/fonts/type1/public/fourier/fourier-orns.pfb></usr/local/
+texlive/2010/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive
+/2010/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2010/t
+exmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2010/texmf-di
+st/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on master.pdf (48 pages, 211429 bytes).
 PDF statistics:
  192 PDF objects out of 1000 (max. 8388607)
  133 compressed objects within 2 object streams
