@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.27)  18 JUL 2011 17:17
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.27)  20 JUL 2011 16:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1182,6 +1182,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 2005) has occurred while \output is active []
 
  [26]
+
+Package natbib Warning: Citation `Skyrms1997' on page 27 undefined on input lin
+e 56.
+
 [27]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 70.
@@ -1192,11 +1196,14 @@ le con-trol-ling for whether una-nim-ity or QMV
  []
 
 [31] [32]
+Underfull \vbox (badness 2293) has occurred while \output is active []
+
+ [33]
 Underfull \hbox (badness 10000) in paragraph at lines 166--166
 []|\T1/futs/m/n/10.95 Mean Coun-cil
  []
 
-[33]
+[34]
 Overfull \hbox (143.43144pt too wide) in paragraph at lines 180--200
 []\T1/futs/m/n/10.95 [Model with Coun-cil Dum-mies] []
  []
@@ -1252,7 +1259,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 249--269
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[34] [35] [36]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35]
+[36] [37]
 Overfull \hbox (26.02551pt too wide) in paragraph at lines 329--350
  [][] 
  []
@@ -1260,17 +1271,16 @@ Overfull \hbox (26.02551pt too wide) in paragraph at lines 329--350
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37]
+ [38]
 Overfull \hbox (8.0618pt too wide) in paragraph at lines 356--357
 \T1/futs/m/n/10.95 from the EU than you give, and be-ing pow-er-ful re-duces di
 s-sent-ing be-hav-ior, whereas
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1314) has occurred while \output is active []
 
- [38]
-[39]
+ [39]
 Overfull \hbox (28.0612pt too wide) in paragraph at lines 370--381
  [] 
  []
@@ -1315,28 +1325,24 @@ Overfull \hbox (325.85326pt too wide) in paragraph at lines 351--356
 Package natbib Warning: There were undefined citations.
 
 [48] (./master.aux (./Theory_Chapter/theory.aux)
-(./VoteChoice_Chapter/VoteChoice.aux))
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(./VoteChoice_Chapter/VoteChoice.aux)) ) 
 Here is how much of TeX's memory you used:
- 15607 strings out of 493763
- 268530 string characters out of 3144954
- 369579 words of memory out of 3000000
- 18573 multiletter control sequences out of 15000+200000
+ 15608 strings out of 493763
+ 268542 string characters out of 3144954
+ 367579 words of memory out of 3000000
+ 18574 multiletter control sequences out of 15000+200000
  99432 words of font info for 86 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  61i,12n,55p,4752b,734s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2010/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2010/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/
-texlive/2010/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/t
-exlive/2010/texmf-dist/fonts/type1/public/fourier/fourier-orns.pfb></usr/local/
-texlive/2010/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive
-/2010/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2010/t
-exmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2010/texmf-di
-st/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on master.pdf (48 pages, 211429 bytes).
+{/usr/local/texlive/2010/texmf-dist/fon
+ts/enc/dvips/base/8r.enc}</usr/local/texlive/2010/texmf-dist/fonts/type1/public
+/fourier/fourier-mlit.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/publi
+c/fourier/fourier-ms.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public
+/fourier/fourier-orns.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/adobe
+/utopia/putb8a.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/adobe/utopia
+/putr8a.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/adobe/utopia/putr8a
+.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on master.pdf (48 pages, 212880 bytes).
 PDF statistics:
  192 PDF objects out of 1000 (max. 8388607)
  133 compressed objects within 2 object streams

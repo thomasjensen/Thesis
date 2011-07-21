@@ -1,0 +1,76 @@
+;; RefTeX parse info file
+;; File: /Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex
+;; User: thomasjensen (Thomas Jensen)
+
+(set reftex-docstruct-symbol '(
+
+
+(xr nil "\\\\\\\\\\\\")
+
+(index-tags)
+
+(is-multi nil)
+
+(bibview-cache)
+
+(master-dir . "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/")
+
+(label-numbers ("eq:" . 2))
+
+(bof "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex")
+
+(toc "toc" "  1 Determinants of Vote Choice" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 1 "1" "\\chapter{Determinants of Vote Choice}" 2)
+
+("chapter:votechoice" "s" "\\lettrine{T}{he} Food Flavoring directive adopted in 2008 was a controversial dossier. Especially Ge" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil)
+
+(toc "toc" "    1.1 Diffuse Reciprocity and Voting in the Council" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 2 "1.1" "\\section{Diffuse Reciprocity and Voting in the Council}" 3203)
+
+("eq:1" "e" nil "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil "")
+
+("eq:2" "e" nil "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil "")
+
+(toc "toc" "    1.2 Research Design" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 2 "1.2" "\\section{Research Design}" 12678)
+
+(toc "toc" "      1.2.1 Case Selection" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 3 "1.2.1" "\\subsection{Case Selection}" 12705)
+
+(toc "toc" "      1.2.2 Data and Variables" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 3 "1.2.2" "\\subsection{Data and Variables}" 15173)
+
+(toc "toc" "            1.2.2.0.0.1 Left-right" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 6 "1.2.2.0.0.1" "\\subparagraph{Left-right}" 18666)
+
+(toc "toc" "            1.2.2.0.0.2 Power" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 6 "1.2.2.0.0.2" "\\subparagraph{Power}" 19174)
+
+(toc "toc" "            1.2.2.0.0.3 Presidency" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 6 "1.2.2.0.0.3" "\\subparagraph{Presidency}" 19628)
+
+(toc "toc" "            1.2.2.0.0.4 Net Beneficiary" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 6 "1.2.2.0.0.4" "\\subparagraph{Net Beneficiary}" 19752)
+
+(toc "toc" "            1.2.2.0.0.5 Agriculture/Regional Policies" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 6 "1.2.2.0.0.5" "\\subparagraph{Agriculture/Regional Policies}" 20021)
+
+(toc "toc" "            1.2.2.0.0.6 Meeting Frequency" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 6 "1.2.2.0.0.6" "\\subparagraph{Meeting Frequency}" 20166)
+
+(toc "toc" "            1.2.2.0.0.7 Voting Rule" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 6 "1.2.2.0.0.7" "\\subparagraph{Voting Rule}" 20686)
+
+(toc "toc" "            1.2.2.0.0.8 Type of Legal Act" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 6 "1.2.2.0.0.8" "\\subparagraph{Type of Legal Act}" 20829)
+
+(toc "toc" "            1.2.2.0.0.9 Salience" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 6 "1.2.2.0.0.9" "\\subparagraph{Salience}" 20975)
+
+(toc "toc" "      1.2.3 Method" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 3 "1.2.3" "\\subsection{Method}" 21222)
+
+(toc "toc" "    1.3 Descriptive Evidence" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 2 "1.3" "\\section{Descriptive Evidence}" 22408)
+
+("tab:depvar" "t" "The Distribution of Votes Across Council Configurations" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil)
+
+("tab:dissent" "t" "The Ten Most Dissenting Governments Between 1999 and 2009" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil)
+
+(toc "toc" "    1.4 Inferential Analysis" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 2 "1.4" "\\section{Inferential Analysis}" 28180)
+
+("tab:full_final" "t" "Full Model with Council Dummies. The coefficients are in the first row for every contrast, and the t" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil)
+
+("tab:effects" "t" "Effects" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil)
+
+(toc "toc" "    1.5 Conclusion" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 2 "1.5" "\\section{Conclusion}" 45823)
+
+("tab:summary" "t" "Summary Statistics for Count and Continuous Variables" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil)
+
+(eof "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex")
+))
+
