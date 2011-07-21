@@ -5,61 +5,63 @@ A level-1 auxiliary file: Theory_Chapter/theory.aux
 A level-1 auxiliary file: VoteChoice_Chapter/VoteChoice.aux
 The style file: apsr.bst
 Database file #1: /Users/thomasjensen/Documents/library.bib
-Repeated entry---line 5149 of file /Users/thomasjensen/Documents/library.bib
- : @unpublished{Hagemann2007
- :                          ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5573 of file /Users/thomasjensen/Documents/library.bib
+Repeated entry---line 3170 of file /Users/thomasjensen/Documents/library.bib
  : @article{ElgstromJonsson2000
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5979 of file /Users/thomasjensen/Documents/library.bib
- : @article{Franchino2004
+Repeated entry---line 3341 of file /Users/thomasjensen/Documents/library.bib
+ : @article{FRANCHINO2004
  :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4554 of file /Users/thomasjensen/Documents/library.bib
+ : @unpublished{Hagemann2007
+ :                          ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Bicchieri2006"
 Warning--I didn't find a database entry for "Beck1992"
 Warning--I didn't find a database entry for "EpsteinSegalSpaeth2001"
+Warning--I didn't find a database entry for "Skyrms1997"
 Warning--empty note in HoylandHansen2010
-You've used 65 entries,
+Warning--empty note in Muehlbock2011
+You've used 67 entries,
             2874 wiz_defined-function locations,
-            1066 strings with 14377 characters,
-and the built_in function-call counts, 210995 in all, are:
-= -- 34139
-> -- 2175
+            1075 strings with 14568 characters,
+and the built_in function-call counts, 217091 in all, are:
+= -- 35148
+> -- 2207
 < -- 0
-+ -- 15378
-- -- 812
-* -- 17613
-:= -- 43176
-add.period$ -- 260
-call.type$ -- 65
-change.case$ -- 845
-chr.to.int$ -- 65
-cite$ -- 66
-duplicate$ -- 970
-empty$ -- 2275
-format.name$ -- 895
-if$ -- 37759
++ -- 15828
+- -- 826
+* -- 18112
+:= -- 44431
+add.period$ -- 268
+call.type$ -- 67
+change.case$ -- 871
+chr.to.int$ -- 67
+cite$ -- 69
+duplicate$ -- 995
+empty$ -- 2330
+format.name$ -- 913
+if$ -- 38842
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 70
-newline$ -- 280
-num.names$ -- 711
-pop$ -- 248
+missing$ -- 71
+newline$ -- 287
+num.names$ -- 731
+pop$ -- 254
 preamble$ -- 1
-purify$ -- 975
+purify$ -- 1005
 quote$ -- 0
-skip$ -- 805
+skip$ -- 829
 stack$ -- 0
-substring$ -- 47731
-swap$ -- 119
-text.length$ -- 910
+substring$ -- 49150
+swap$ -- 122
+text.length$ -- 938
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 244
-warning$ -- 1
-while$ -- 1527
+type$ -- 252
+warning$ -- 2
+while$ -- 1571
 width$ -- 0
-write$ -- 875
+write$ -- 899
 (There were 3 error messages)
