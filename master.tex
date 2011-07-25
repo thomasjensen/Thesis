@@ -1,5 +1,7 @@
 \documentclass[11pt,a4paper]{memoir}
 
+\usepackage{rotating}
+\usepackage{subfig}
 \usepackage{amsmath}
 \usepackage{rotating}
 \usepackage{multirow}
@@ -55,6 +57,7 @@
 
 \begin{document} 
 
+\include{Introduction/Introduction}
 \include{Theory_Chapter/theory}
 \include{VoteChoice_Chapter/VoteChoice}
 
@@ -62,3 +65,24 @@
 \bibliographystyle{apsr}
 
 \end{document}
+
+\begin{table}[ht]
+  \centering
+   \resizebox{\textwidth}{!}{
+  \begin{tabular}{l p{5cm} l c c} \toprule
+    Variable & Description & Source &  Mean/Mode/Median & Standard Deviation \\ \midrule
+    Left-Right & The position of each government on a 0 to 10 scale, where 0 is most left and 10 is most right. & \citet{DoringMannow2010} & 5.33 & 1.42 \\ 
+    Votes & The number of votes a given member state has at its disposal. & Council & 5 & 6.98 \\
+    Presidency & Categorical variable coding for which member state holds the Presidency at the time of voting. & Council & - & - \\
+    Net Beneficiary & The net amount of contributions to the EU mins the net amount of funds received from the EU. & EU Budget Reports & -0.16 & 178.84 \\
+    Agriculture/Regional Policies & A dummy variable for dossiers that fell under the agriculture of regional policy areas. &  Council & - & - \\
+Meeting Frequency & The number of sessions per year for the different Council configurations. & 8 & 4.64 \\
+Voting Rule & A dummy variable coding 0 for unanimity and 1 for QMV. & - & - \\
+Type of Legal Act & A categorical variable coding whether a dossier was a directive, regulation or decision & - & - \\
+Salience & A count variable coding how many times a dossier was discussed at Council level. & - & - \\
+    \bottomrule
+  \end{tabular}
+  }
+  \caption{Variables}
+  \label{tab:variables}
+\end{table}

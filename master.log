@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.27)  21 JUL 2011 14:24
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.27)  25 JUL 2011 09:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -336,64 +336,6 @@ Package verse [2008/07/23] emulated by memoir.
 (/usr/local/texlive/2010/texmf-dist/tex/latex/memoir/mempatch.sty
 Package: mempatch 2009/07/24 v6.0f Patches for memoir class v1.6180339
 ))
-(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2000/07/18 v2.13 AMS math features
-\@mathmargin=\skip185
-
-For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01
-
-(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks22
-\ex@=\dimen147
-))
-(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen148
-)
-(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
-)
-\inf@bad=\count138
-LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count139
-\leftroot@=\count140
-LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count141
-\DOTSCASE@=\count142
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
-\Mathstrutbox@=\box29
-\strutbox@=\box30
-\big@size=\dimen149
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count143
-\c@MaxMatrixCols=\count144
-\dotsspace@=\muskip10
-\c@parentequation=\count145
-\dspbrk@lvl=\count146
-\tag@help=\toks23
-\row@=\count147
-\column@=\count148
-\maxfields@=\count149
-\andhelp@=\toks24
-\eqnshift@=\dimen150
-\alignsep@=\dimen151
-\tagshift@=\dimen152
-\tagwidth@=\dimen153
-\totwidth@=\dimen154
-\lineht@=\dimen155
-\@envbody=\toks25
-\multlinegap=\skip186
-\multlinetaggap=\skip187
-\mathdisplay@stack=\toks26
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
-)
 (/usr/local/texlive/2010/texmf-dist/tex/latex/rotating/rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 
@@ -402,7 +344,7 @@ Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks27
+\KV@toks@=\toks22
 )
 (/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
@@ -424,53 +366,147 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
 (/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count150
+\Gread@gobject=\count138
 ))
-\Gin@req@height=\dimen156
-\Gin@req@width=\dimen157
+\Gin@req@height=\dimen147
+\Gin@req@width=\dimen148
 )
 (/usr/local/texlive/2010/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count151
-\rotFPtop=\skip188
-\rotFPbot=\skip189
-\rot@float@box=\box31
-\rot@mess@toks=\toks28
+\c@r@tfl@t=\count139
+\rotFPtop=\skip185
+\rotFPbot=\skip186
+\rot@float@box=\box29
+\rot@mess@toks=\toks23
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+
+Class memoir Warning: You are using the caption package with the memoir 
+(memoir)              class. This may cause unexpected or inconsistent 
+(memoir)              results if you use any of memoir's captioning facilities.
+
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2010/01/09 v3.1m Customizing captions (AR)
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2010/01/14 v3.1m caption3 kernel (AR)
+\captionmargin=\dimen149
+\captionmargin@=\dimen150
+\captionwidth=\dimen151
+\caption@indent=\dimen152
+\caption@parindent=\dimen153
+\caption@hangindent=\dimen154
+)
+\c@ContinuedFloat=\count140
+Package caption Info: rotating package is loaded.
+)
+\c@KVtest=\count141
+\sf@farskip=\skip187
+\sf@captopadj=\dimen155
+\sf@capskip=\skip188
+\sf@nearskip=\skip189
+\c@subfigure=\count142
+\c@subfigure@save=\count143
+\c@subtable=\count144
+\c@subtable@save=\count145
+\sf@top=\skip190
+\sf@bottom=\skip191
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip192
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks24
+\ex@=\dimen156
+))
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen157
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count146
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count147
+\leftroot@=\count148
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count149
+\DOTSCASE@=\count150
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen158
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count151
+\c@MaxMatrixCols=\count152
+\dotsspace@=\muskip10
+\c@parentequation=\count153
+\dspbrk@lvl=\count154
+\tag@help=\toks25
+\row@=\count155
+\column@=\count156
+\maxfields@=\count157
+\andhelp@=\toks26
+\eqnshift@=\dimen159
+\alignsep@=\dimen160
+\tagshift@=\dimen161
+\tagwidth@=\dimen162
+\totwidth@=\dimen163
+\lineht@=\dimen164
+\@envbody=\toks27
+\multlinegap=\skip193
+\multlinetaggap=\skip194
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
 )
 (/usr/local/texlive/2010/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen158
+\bigstrutjot=\dimen165
 )
 (/usr/local/texlive/2010/texmf-dist/tex/latex/psnfss/bookman.sty
 Package: bookman 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
 (/usr/local/texlive/2010/texmf-dist/tex/latex/lettrine/lettrine.sty
 File: lettrine.sty 2007/08/08 v1.62 (Daniel Flipo)
-\c@DefaultLines=\count152
-\DefaultFindent=\dimen159
-\DefaultNindent=\dimen160
-\DefaultSlope=\dimen161
+\c@DefaultLines=\count158
+\DefaultFindent=\dimen166
+\DefaultNindent=\dimen167
+\DefaultSlope=\dimen168
 \L@lbox=\box32
 \L@tbox=\box33
-\c@L@lines=\count153
-\L@Pindent=\dimen162
-\L@Findent=\dimen163
-\L@Nindent=\dimen164
-\L@lraise=\dimen165
-\L@first=\dimen166
-\L@next=\dimen167
-\L@slope=\dimen168
-\L@height=\dimen169
-\LettrineWidth=\dimen170
+\c@L@lines=\count159
+\L@Pindent=\dimen169
+\L@Findent=\dimen170
+\L@Nindent=\dimen171
+\L@lraise=\dimen172
+\L@first=\dimen173
+\L@next=\dimen174
+\L@slope=\dimen175
+\L@height=\dimen176
+\LettrineWidth=\dimen177
 
 Loading lettrine.cfg
 (/usr/local/texlive/2010/texmf-dist/tex/latex/lettrine/lettrine.cfg))
 (/usr/local/texlive/2010/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip190
-\bibsep=\skip191
+\bibhang=\skip195
+\bibsep=\skip196
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count154
+\c@NAT@ctr=\count160
 )
 (/usr/local/texlive/2010/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/local/texlive/2010/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
@@ -500,20 +536,20 @@ Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 ode.tex
 \pgfkeys@tmptoks=\toks32
 ))
-\pgf@x=\dimen171
-\pgf@y=\dimen172
-\pgf@xa=\dimen173
-\pgf@ya=\dimen174
-\pgf@xb=\dimen175
-\pgf@yb=\dimen176
-\pgf@xc=\dimen177
-\pgf@yc=\dimen178
+\pgf@x=\dimen178
+\pgf@y=\dimen179
+\pgf@xa=\dimen180
+\pgf@ya=\dimen181
+\pgf@xb=\dimen182
+\pgf@yb=\dimen183
+\pgf@xc=\dimen184
+\pgf@yc=\dimen185
 \w@pgf@writea=\write4
 \r@pgf@reada=\read2
-\c@pgf@counta=\count155
-\c@pgf@countb=\count156
-\c@pgf@countc=\count157
-\c@pgf@countd=\count158
+\c@pgf@counta=\count161
+\c@pgf@countb=\count162
+\c@pgf@countc=\count163
+\c@pgf@countd=\count164
 
 (/usr/local/texlive/2010/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
@@ -531,8 +567,8 @@ File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
 (/usr/local/texlive/2010/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
-\pgfsyssoftpath@smallbuffer@items=\count159
-\pgfsyssoftpath@bigbuffer@items=\count160
+\pgfsyssoftpath@smallbuffer@items=\count165
+\pgfsyssoftpath@bigbuffer@items=\count166
 )
 (/usr/local/texlive/2010/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -560,8 +596,8 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 (/usr/local/texlive/2010/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/local/texlive/2010/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2010/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen179
-\pgfmath@count=\count161
+\pgfmath@dimen=\dimen186
+\pgfmath@count=\count167
 \pgfmath@box=\box35
 \pgfmath@toks=\toks33
 \pgfmath@stack@operand=\toks34
@@ -584,37 +620,37 @@ code.tex)
 (/usr/local/texlive/2010/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
 code.tex)))
 (/usr/local/texlive/2010/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count162
+\c@pgfmathroundto@lastzeros=\count168
 ))
 (/usr/local/texlive/2010/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
 File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
-\pgf@picminx=\dimen180
-\pgf@picmaxx=\dimen181
-\pgf@picminy=\dimen182
-\pgf@picmaxy=\dimen183
-\pgf@pathminx=\dimen184
-\pgf@pathmaxx=\dimen185
-\pgf@pathminy=\dimen186
-\pgf@pathmaxy=\dimen187
-\pgf@xx=\dimen188
-\pgf@xy=\dimen189
-\pgf@yx=\dimen190
-\pgf@yy=\dimen191
-\pgf@zx=\dimen192
-\pgf@zy=\dimen193
+\pgf@picminx=\dimen187
+\pgf@picmaxx=\dimen188
+\pgf@picminy=\dimen189
+\pgf@picmaxy=\dimen190
+\pgf@pathminx=\dimen191
+\pgf@pathmaxx=\dimen192
+\pgf@pathminy=\dimen193
+\pgf@pathmaxy=\dimen194
+\pgf@xx=\dimen195
+\pgf@xy=\dimen196
+\pgf@yx=\dimen197
+\pgf@yy=\dimen198
+\pgf@zx=\dimen199
+\pgf@zy=\dimen200
 )
 (/usr/local/texlive/2010/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
 ruct.code.tex
 File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
-\pgf@path@lastx=\dimen194
-\pgf@path@lasty=\dimen195
+\pgf@path@lastx=\dimen201
+\pgf@path@lasty=\dimen202
 )
 (/usr/local/texlive/2010/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
 .code.tex
 File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
-\pgf@shorten@end@additional=\dimen196
-\pgf@shorten@start@additional=\dimen197
+\pgf@shorten@end@additional=\dimen203
+\pgf@shorten@start@additional=\dimen204
 )
 (/usr/local/texlive/2010/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
@@ -622,19 +658,19 @@ File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
 \pgfpic=\box36
 \pgf@hbox=\box37
 \pgf@layerbox@main=\box38
-\pgf@picture@serial@count=\count163
+\pgf@picture@serial@count=\count169
 )
 (/usr/local/texlive/2010/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
 File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
-\pgflinewidth=\dimen198
+\pgflinewidth=\dimen205
 )
 (/usr/local/texlive/2010/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
 ations.code.tex
 File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
-\pgf@pt@x=\dimen199
-\pgf@pt@y=\dimen200
-\pgf@pt@temp=\dimen201
+\pgf@pt@x=\dimen206
+\pgf@pt@y=\dimen207
+\pgf@pt@temp=\dimen208
 )
 (/usr/local/texlive/2010/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
 e.tex
@@ -655,8 +691,8 @@ File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 (/usr/local/texlive/2010/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
 e.tex
 File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
-\pgf@max=\dimen202
-\pgf@sys@shading@range@num=\count164
+\pgf@max=\dimen209
+\pgf@sys@shading@range@num=\count170
 )
 (/usr/local/texlive/2010/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -691,8 +727,8 @@ File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 (/usr/local/texlive/2010/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen203
-\pgf@nodesepend=\dimen204
+\pgf@nodesepstart=\dimen210
+\pgf@nodesepend=\dimen211
 )
 (/usr/local/texlive/2010/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
@@ -703,8 +739,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 (/usr/local/texlive/2010/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
 ) (/usr/local/texlive/2010/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
-\pgffor@iter=\dimen205
-\pgffor@skip=\dimen206
+\pgffor@iter=\dimen212
+\pgffor@skip=\dimen213
 \pgffor@stack=\toks36
 \pgffor@toks=\toks37
 ))
@@ -715,30 +751,30 @@ Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 (/usr/local/texlive/2010/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
-\pgf@plot@mark@count=\count165
-\pgfplotmarksize=\dimen207
+\pgf@plot@mark@count=\count171
+\pgfplotmarksize=\dimen214
 )
-\tikz@lastx=\dimen208
-\tikz@lasty=\dimen209
-\tikz@lastxsaved=\dimen210
-\tikz@lastysaved=\dimen211
-\tikzleveldistance=\dimen212
-\tikzsiblingdistance=\dimen213
+\tikz@lastx=\dimen215
+\tikz@lasty=\dimen216
+\tikz@lastxsaved=\dimen217
+\tikz@lastysaved=\dimen218
+\tikzleveldistance=\dimen219
+\tikzsiblingdistance=\dimen220
 \tikz@figbox=\box41
 \tikz@tempbox=\box42
-\tikztreelevel=\count166
-\tikznumberofchildren=\count167
-\tikznumberofcurrentchild=\count168
-\tikz@fig@count=\count169
+\tikztreelevel=\count172
+\tikznumberofchildren=\count173
+\tikznumberofcurrentchild=\count174
+\tikz@fig@count=\count175
 
 (/usr/local/texlive/2010/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
-\pgfmatrixcurrentrow=\count170
-\pgfmatrixcurrentcolumn=\count171
-\pgf@matrix@numberofcolumns=\count172
+\pgfmatrixcurrentrow=\count176
+\pgfmatrixcurrentcolumn=\count177
+\pgf@matrix@numberofcolumns=\count178
 )
-\tikz@expandcount=\count173
+\tikz@expandcount=\count179
 
 (/usr/local/texlive/2010/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -928,69 +964,69 @@ LaTeX Font Info:    Redeclaring math accent \dot on input line 255.
 LaTeX Font Info:    Redeclaring math accent \mathring on input line 256.
 \symUfutm=\mathgroup5
 )
-(./master.aux (./Theory_Chapter/theory.aux)
+(./master.aux (./Introduction/Introduction.aux) (./Theory_Chapter/theory.aux)
 (./VoteChoice_Chapter/VoteChoice.aux))
 \openout1 = `master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 56.
-LaTeX Font Info:    Try loading font information for FML+futm on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 58.
+LaTeX Font Info:    Try loading font information for FML+futm on input line 58.
 
 
 (/usr/local/texlive/2010/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 56.
-LaTeX Font Info:    Try loading font information for FMS+futm on input line 56.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 58.
+LaTeX Font Info:    Try loading font information for FMS+futm on input line 58.
 
 
 (/usr/local/texlive/2010/texmf-dist/tex/latex/fourier/fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 56.
-LaTeX Font Info:    Try loading font information for FMX+futm on input line 56.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 58.
+LaTeX Font Info:    Try loading font information for FMX+futm on input line 58.
 
 
 (/usr/local/texlive/2010/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 56.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 58.
 
 (/usr/local/texlive/2010/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Try loading font information for T1+futs on input line 56.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Try loading font information for T1+futs on input line 58.
 
 (/usr/local/texlive/2010/texmf-dist/tex/latex/fourier/t1futs.fd
 File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
 )
 (/usr/local/texlive/2010/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count174
-\scratchdimen=\dimen214
+\scratchcounter=\count180
+\scratchdimen=\dimen221
 \scratchbox=\box43
-\nofMPsegments=\count175
-\nofMParguments=\count176
+\nofMPsegments=\count181
+\nofMParguments=\count182
 \everyMPshowfont=\toks38
-\MPscratchCnt=\count177
-\MPscratchDim=\dimen215
-\MPnumerator=\count178
+\MPscratchCnt=\count183
+\MPscratchDim=\dimen222
+\MPnumerator=\count184
 \everyMPtoPDFconversion=\toks39
 ) (/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
@@ -1030,10 +1066,15 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-ABD: EveryShipout initializing macros
-\openout2 = `Theory_Chapter/theory.aux'.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption3 Info: subfig package 1.2 or 1.3 is loaded.
+LaTeX Info: Redefining \subref on input line 58.
+Package caption Info: End \AtBeginDocument code.
 
- (./Theory_Chapter/theory.tex
+ABD: EveryShipout initializing macros
+\openout2 = `Introduction/Introduction.aux'.
+
+ (./Introduction/Introduction.tex
 LaTeX Font Info:    Try loading font information for U+futs on input line 1.
 
 (/usr/local/texlive/2010/texmf-dist/tex/latex/fourier/ufuts.fd
@@ -1041,32 +1082,127 @@ File: ufuts.fd 2004/03/26 Fontinst v1.926 font definitions for U/futs.
 )
 LaTeX Font Info:    Font shape `U/futs/m/it' in size <14.4> not available
 (Font)              Font shape `U/futs/m/sl' tried instead on input line 1.
-LaTeX Font Info:    Try loading font information for FML+futmi on input line 4.
-
-
-(/usr/local/texlive/2010/texmf-dist/tex/latex/fourier/fmlfutmi.fd
-File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
-)
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 4.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 4.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 4.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 4.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 4.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 4.
-
-Underfull \vbox (badness 6110) has occurred while \output is active []
-
  [1
 
 
 
 {/usr/local/texlive/2010/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (0.90475pt too wide) in paragraph at lines 35--36
+\T1/futs/m/n/10.95 the most con-sis-tent ev-i-dence for a con-sen-sus norm. Ta-
+ble 1.1[] presents an overview
+ []
+
+LaTeX Font Info:    Try loading font information for FML+futmi on input line 39
+.
+(/usr/local/texlive/2010/texmf-dist/tex/latex/fourier/fmlfutmi.fd
+File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
+)
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 39.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 39.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 39.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 39.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 39.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 39.
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]|\T1/futs/m/n/10.95 Employmant and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+[]|\T1/futs/m/n/10.95 Consensus norm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+\T1/futs/m/n/10.95 was trumped by
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+\T1/futs/m/n/10.95 do-mes-tic con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[]|\T1/futs/m/n/10.95 Internal En-ergy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+[]|\T1/futs/m/n/10.95 The con-sen-sus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+\T1/futs/m/n/10.95 norm work in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+\T1/futs/m/n/10.95 con-junc-tion with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+[]|\T1/futs/m/n/10.95 The con-sen-sus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+\T1/futs/m/n/10.95 norm work in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+\T1/futs/m/n/10.95 con-junc-tion with
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 45--45
+[]|\T1/futs/m/n/10.95 Dublin II Reg-u-la-
+ []
+
+
+Overfull \hbox (53.80745pt too wide) in paragraph at lines 39--47
+ [][] 
+ []
+
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 52.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 52.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 52.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 52.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+Underfull \vbox (badness 1048) has occurred while \output is active []
+
+ [3]
+Underfull \vbox (badness 3919) has occurred while \output is active []
+
+ [4])
+[5]
+\openout2 = `Theory_Chapter/theory.aux'.
+
+ (./Theory_Chapter/theory.tex [6
+
+
+
+]
+Underfull \vbox (badness 6110) has occurred while \output is active []
+
+ [7]
 Overfull \hbox (2.94867pt too wide) in paragraph at lines 8--9
 \T1/futs/m/n/10.95 the votes to po-si-tion mem-ber states and gov-ern-ments in 
 a one- or two-dimensional
@@ -1075,22 +1211,22 @@ a one- or two-dimensional
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2]
+ [8]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 18.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3]
+ [9]
 Overfull \hbox (0.81349pt too wide) in paragraph at lines 24--25
 \T1/futs/m/n/10.95 widespread pop-u-lar-ity within po-lit-i-cal sci-ence in the
  last 20 years (see Volden 1998;
  []
 
-[4]
+[10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
+ [11]
 Overfull \hbox (7.36153pt too wide) in paragraph at lines 30--31
 \T1/futs/m/n/10.95 vides clear ex-pec-ta-tions to re-sult of the ne-go-ti-a-tio
 ns and can ac-co-mo-date log rolling.
@@ -1112,27 +1248,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--50
 []\T1/futs/m/n/7 Right-most
  []
 
-[6] [7] [8] [9] [10]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11]
 [12]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1152) has occurred while \output is active []
 
  [13]
-Underfull \vbox (badness 1460) has occurred while \output is active []
+[14] [15] [16]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14]
+ [17]
+[18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+[20]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 159.
 
 
-Package natbib Warning: Citation `Bicchieri2006' on page 15 undefined on input 
+Package natbib Warning: Citation `Bicchieri2006' on page 21 undefined on input 
 line 159.
 
-[15] [16]
+[21] [22]
 
-Package natbib Warning: Citation `Beck1992' on page 17 undefined on input line 
+Package natbib Warning: Citation `Beck1992' on page 23 undefined on input line 
 173.
 
 
@@ -1147,25 +1285,25 @@ Overfull \hbox (6.81352pt too wide) in paragraph at lines 175--176
 rs play a pris-on-ers dilemma
  []
 
-[17]
+[23]
 
-Package natbib Warning: Citation `EpsteinSegalSpaeth2001' on page 18 undefined 
+Package natbib Warning: Citation `EpsteinSegalSpaeth2001' on page 24 undefined 
 on input line 177.
 
-[18] [19]
+[24] [25]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
-[21]
+ [26]
+[27]
 Overfull \hbox (8.433pt too wide) in paragraph at lines 204--205
 []\T1/futs/m/n/10.95 Chapter ?? will ex-am-ine the time de-pen-dent as-pect of 
 dif-fuse reci-procity through
  []
 
-) [22]
+) [28]
 \openout2 = `VoteChoice_Chapter/VoteChoice.aux'.
 
- (./VoteChoice_Chapter/VoteChoice.tex [23
+ (./VoteChoice_Chapter/VoteChoice.tex [29
 
 
 
@@ -1175,147 +1313,70 @@ Overfull \hbox (3.90135pt too wide) in paragraph at lines 25--26
  overviews and cri-tiques).
  []
 
-[24]
+[30]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25]
+ [31]
 Underfull \vbox (badness 2005) has occurred while \output is active []
 
- [26]
+ [32]
 
-Package natbib Warning: Citation `Skyrms1997' on page 27 undefined on input lin
+Package natbib Warning: Citation `Skyrms1997' on page 33 undefined on input lin
 e 56.
 
-[27]
+[33]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 71.
- [28]
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 70.
+ [34]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29]
-[30]
-
-Package natbib Warning: Citation `DoringMannow2010' on page 31 undefined on inp
-ut line 102.
-
-
-Overfull \hbox (364.92717pt too wide) in paragraph at lines 100--105
- [][] 
- []
-
-[31]
-Overfull \hbox (0.6873pt too wide) in paragraph at lines 121--122
- \T1/futs/b/n/10.95 Vot-ing Rule[] \T1/futs/m/n/10.95 A cat-e-gor-i-cal vari-ab
-le con-trol-ling for whether una-nim-ity or QMV
- []
-
-[32] [33]
-Underfull \hbox (badness 10000) in paragraph at lines 183--183
-[]|\T1/futs/m/n/10.95 Mean Coun-cil
- []
-
-[34]
-Overfull \hbox (143.43144pt too wide) in paragraph at lines 197--217
-[]\T1/futs/m/n/10.95 [Model with Coun-cil Dum-mies] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 197--217
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 220--240
-[]\T1/futs/m/n/10.95 [Model with Coun-cil Dum-mies and Con-trol-ling for Dossie
-r Type]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 220--240
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 220--240
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 243--263
-[]\T1/futs/m/n/10.95 [Model with Coun-cil Dum-mies and Con-trol-ling for Vot-in
-g Rule]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 243--263
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 243--263
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 266--286
-[]\T1/futs/m/n/10.95 [Model with Coun-cil Dum-mies and Con-trol-ling for Salien
-ce]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 266--286
-
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[35] [36] [37]
-Overfull \hbox (26.02551pt too wide) in paragraph at lines 346--367
- [][] 
- []
-
-
+ [35]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
-Overfull \hbox (8.0618pt too wide) in paragraph at lines 373--374
+ [36]
+
+LaTeX Warning: Reference `tab:variables' on page 37 undefined on input line 97.
+
+
+[37] (./VoteChoice_Chapter/Figures/depvar.tex)
+(./VoteChoice_Chapter/Figures/scatter1.tex)
+(./VoteChoice_Chapter/Figures/scatter2.tex)
+(./VoteChoice_Chapter/Figures/scatter3.tex) [38]
+(./VoteChoice_Chapter/Figures/histogramNo.tex)
+(./VoteChoice_Chapter/Figures/histogramAbs.tex)
+(./VoteChoice_Chapter/Figures/histogramYesNeg.tex) [39] [40] [41]
+Overfull \hbox (8.0618pt too wide) in paragraph at lines 146--147
 \T1/futs/m/n/10.95 from the EU than you give, and be-ing pow-er-ful re-duces di
 s-sent-ing be-hav-ior, whereas
  []
 
+[42]
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Reference `tab:dissent' on page 43 undefined on input line 155.
 
- [39]
-[40]
-Overfull \hbox (28.0612pt too wide) in paragraph at lines 387--398
- [] 
- []
-
-) [41] [42] [43] (./master.bbl [44
+[43]) [44] (./master.bbl [45
 
 
-] [45]
-Underfull \hbox (badness 1838) in paragraph at lines 73--78
+]
+Underfull \hbox (badness 1838) in paragraph at lines 79--84
 []\T1/futs/m/n/10.95 Elgie, Robert. 2006.  ``Why Do Gov-ern-ments Del-e-gate Au
 -thor-ity to Quasi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--99
+Underfull \hbox (badness 10000) in paragraph at lines 102--105
 \T1/futs/b/n/10.95 URL: \T1/futs/m/it/10.95 http://www.euractiv.com/en/future-e
 u/denmark-rebuilds-borders-
  []
 
-[46]
-Overfull \hbox (325.85326pt too wide) in paragraph at lines 199--203
+[46] [47]
+Overfull \hbox (325.85326pt too wide) in paragraph at lines 205--209
 \T1/futs/b/n/10.95 URL: \T1/futs/m/it/10.95 http://www.informaworld.com/openurl
 ?genre=article&doi=10.1080/13501760010014902&magic=crossref||D404A21C5BB053405B
 1A640AFFD44AE3 
  []
 
-[47] [48] [49]
+[48] [49]
 Underfull \hbox (badness 1077) in paragraph at lines 360--365
 []\T1/futs/m/n/10.95 Warntjen, An-dreas. 2010.  ``Be-tween bar-gain-ing and de-
 lib-er-a-tion: decision-
@@ -1332,20 +1393,20 @@ Overfull \hbox (325.85326pt too wide) in paragraph at lines 360--365
 
 Package natbib Warning: There were undefined citations.
 
-[50] (./master.aux (./Theory_Chapter/theory.aux)
-(./VoteChoice_Chapter/VoteChoice.aux))
+[50] (./master.aux (./Introduction/Introduction.aux)
+(./Theory_Chapter/theory.aux) (./VoteChoice_Chapter/VoteChoice.aux))
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 15620 strings out of 493763
- 268740 string characters out of 3144954
- 368640 words of memory out of 3000000
- 18586 multiletter control sequences out of 15000+200000
- 99432 words of font info for 86 fonts, out of 3000000 for 9000
+ 17204 strings out of 493763
+ 298763 string characters out of 3144954
+ 742493 words of memory out of 3000000
+ 20128 multiletter control sequences out of 15000+200000
+ 110031 words of font info for 99 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 61i,12n,55p,4752b,734s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 61i,11n,61p,4752b,800s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2010/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2010/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/
 texlive/2010/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/t
@@ -1354,7 +1415,7 @@ texlive/2010/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive
 /2010/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2010/t
 exmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2010/texmf-di
 st/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on master.pdf (50 pages, 214762 bytes).
+Output written on master.pdf (50 pages, 258569 bytes).
 PDF statistics:
  199 PDF objects out of 1000 (max. 8388607)
  138 compressed objects within 2 object streams
