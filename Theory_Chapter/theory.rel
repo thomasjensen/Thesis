@@ -11,7 +11,7 @@
 
 (is-multi nil)
 
-(bibview-cache ("BjurulfElgstrom2004" . "Bjurulf & Elgstrom 2004, Negot. Transp. Role Inst., JCMS: Journal of Common Market Studies 42:249") ("Jonsson2000" . "J\\\"onsson & Ole Elgstr\\\"om 2000, Negot. Europ. Union: barg. or, Journal of European Public Policy 7:684") ("ElgstromJonsson2000" . "J\\\"onsson 2000, Negot. Europ. Union: barg. or, Journal of European Public Policy 7:684"))
+(bibview-cache)
 
 (master-dir . "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/")
 
@@ -19,25 +19,29 @@
 
 (bof "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex")
 
-(toc "toc" "    1 Voting in the Council " "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex" nil 2 "1" "\\section{Voting in the Council }" 234)
+(toc "toc" "  1 Diffuse Reciprocity and Bargaining" "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex" nil 1 "1" "\\chapter{Diffuse Reciprocity and Bargaining}" 1)
 
-(toc "toc" "    2 Voting as Signaling in the Council" "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex" nil 2 "2" "\\section{Voting as Signaling in the Council}" 6496)
+("chapter:theory" "s" "\\lettrine[lines = 3]{B}{argaining} is a fundamental aspect of politics, and it is no surprise that f" "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex" nil)
 
-(toc "toc" "      2.1 The Spatial Model of Bargaining" "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex" nil 3 "2.1" "\\subsection{The Spatial Model of Bargaining}" 6542)
+(toc "toc" "    1.1 Voting in the Council " "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex" nil 2 "1.1" "\\section{Voting in the Council }" 6862)
+
+(toc "toc" "    1.2 The Spatial Model of Bargaining" "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex" nil 2 "1.2" "\\section{The Spatial Model of Bargaining}" 14070)
 
 ("fig:matillalane" "f" "The One Dimensional Spatial Model" "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex" nil)
 
 ("fig:twodimensions" "f" "A Two Dimensional Spatial Model" "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex" nil)
 
-(toc "toc" "      2.2 Diffuse Reciprocity" "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex" nil 3 "2.2" "\\subsection{Diffuse Reciprocity}" 14558)
+(toc "toc" "    1.3 Diffuse Reciprocity" "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex" nil 2 "1.3" "\\section{Diffuse Reciprocity}" 23390)
 
-(toc "toc" "      2.3 Diffuse Reciprocity and Signaling" "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex" nil 3 "2.3" "\\subsection{Diffuse Reciprocity and Signaling}" 21234)
+(toc "toc" "    1.4 Diffuse Reciprocity and Signaling" "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex" nil 2 "1.4" "\\section{Diffuse Reciprocity and Signaling}" 33351)
 
-("tab:signaling" "t" "Types of Signalin in the Council" "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex" nil)
+("tab:signaling" "t" "Types of Signaling in the Council" "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex" nil)
 
-(toc "toc" "    3 Normative Behavior and Diffuse Reciprocity" "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex" nil 2 "3" "\\section{Normative Behavior and Diffuse Reciprocity}" 26100)
+(toc "toc" "    1.5 Normative Behavior and Diffuse Reciprocity" "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex" nil 2 "1.5" "\\section{Normative Behavior and Diffuse Reciprocity}" 42098)
 
-(bib "/Users/thomasjensen/Documents/library.bib")
+(toc "toc" "    1.6 Measuring Diffuse Reciprocity" "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex" nil 2 "1.6" "\\section{Measuring Diffuse Reciprocity}" 47466)
+
+(toc "toc" "    1.7 What to Come" "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex" nil 2 "1.7" "\\section{What to Come}" 59169)
 
 (eof "/Users/thomasjensen/Documents/Thesis/Theory_Chapter/theory.tex")
 ))

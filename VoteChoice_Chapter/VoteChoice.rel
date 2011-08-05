@@ -15,7 +15,7 @@
 
 (master-dir . "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/")
 
-(label-numbers)
+(label-numbers ("eq:" . 4))
 
 (bof "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex")
 
@@ -29,49 +29,29 @@
 
 ("eq:2" "e" "U_{ik}(-|x_{ik} - p_k|) > U_{ik}(-|x_{ik} - q_k|) &= No " "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil)
 
-(toc "toc" "    1.2 Research Design" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 2 "1.2" "\\section{Research Design}" 14514)
+(toc "toc" "    1.2 Research Design" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 2 "1.2" "\\section{Research Design}" 14513)
 
-(toc "toc" "      1.2.1 Case Selection" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 3 "1.2.1" "\\subsection{Case Selection}" 14541)
+(toc "toc" "      1.2.1 Case Selection" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 3 "1.2.1" "\\subsection{Case Selection}" 14540)
 
-(toc "toc" "      1.2.2 Data and Variables" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 3 "1.2.2" "\\subsection{Data and Variables}" 18755)
+(toc "toc" "      1.2.2 Data and Variables" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 3 "1.2.2" "\\subsection{Data and Variables}" 20925)
 
-("tab:variables" "t" "Variables" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil)
+(toc "toc" "    1.3 Descriptive Evidence" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 2 "1.3" "\\section{Descriptive Evidence}" 23211)
 
-(toc "toc" "            1.2.2.0.0.1 Left-right" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 6 "1.2.2.0.0.1" "\\subparagraph{Left-right}" 21337)
+("fig:depvar" "f" " " "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil)
 
-(toc "toc" "            1.2.2.0.0.2 Power" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 6 "1.2.2.0.0.2" "\\subparagraph{Power}" 21845)
+("fig:scatter" "f" "The plot show the degree of deviance from the mean left-right position in the Council on the x-axis," "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil)
 
-(toc "toc" "            1.2.2.0.0.3 Presidency" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 6 "1.2.2.0.0.3" "\\subparagraph{Presidency}" 22299)
+("fig:histogram" "f" "The plots show the conditional distribtion of relative voting frequencies within each time category." "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil)
 
-(toc "toc" "            1.2.2.0.0.4 Net Beneficiary" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 6 "1.2.2.0.0.4" "\\subparagraph{Net Beneficiary}" 22423)
+(toc "toc" "    1.4 Inferential Analysis" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 2 "1.4" "\\section{Inferential Analysis}" 28909)
 
-(toc "toc" "            1.2.2.0.0.5 Agriculture/Regional Policies" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 6 "1.2.2.0.0.5" "\\subparagraph{Agriculture/Regional Policies}" 22692)
+("eq:3" "e" " " "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil)
 
-(toc "toc" "            1.2.2.0.0.6 Meeting Frequency" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 6 "1.2.2.0.0.6" "\\subparagraph{Meeting Frequency}" 22837)
+("eq:4" "e" nil "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil "")
 
-(toc "toc" "            1.2.2.0.0.7 Voting Rule" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 6 "1.2.2.0.0.7" "\\subparagraph{Voting Rule}" 23357)
+(toc "toc" "    1.5 Conclusion" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 2 "1.5" "\\section{Conclusion}" 47305)
 
-(toc "toc" "            1.2.2.0.0.8 Type of Legal Act" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 6 "1.2.2.0.0.8" "\\subparagraph{Type of Legal Act}" 23500)
-
-(toc "toc" "            1.2.2.0.0.9 Salience" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 6 "1.2.2.0.0.9" "\\subparagraph{Salience}" 23646)
-
-(toc "toc" "      1.2.3 Method" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 3 "1.2.3" "\\subsection{Method}" 23893)
-
-(toc "toc" "    1.3 Descriptive Evidence" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 2 "1.3" "\\section{Descriptive Evidence}" 25079)
-
-("tab:depvar" "t" "The Distribution of Votes Across Council Configurations" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil)
-
-("tab:dissent" "t" "The Ten Most Dissenting Governments Between 1999 and 2009" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil)
-
-(toc "toc" "    1.4 Inferential Analysis" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 2 "1.4" "\\section{Inferential Analysis}" 30851)
-
-("tab:full_final" "t" "Full Model with Council Dummies. The coefficients are in the first row for every contrast, and the t" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil)
-
-("tab:effects" "t" "Effects" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil)
-
-(toc "toc" "    1.5 Conclusion" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 2 "1.5" "\\section{Conclusion}" 48494)
-
-("tab:summary" "t" "Summary Statistics for Count and Continuous Variables" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil)
+(toc "toc" "    1.6 Appendix" "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex" nil 2 "1.6" "\\section{Appendix}" 50041)
 
 (eof "/Users/thomasjensen/Documents/Thesis/VoteChoice_Chapter/VoteChoice.tex")
 ))

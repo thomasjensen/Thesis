@@ -1,0 +1,34 @@
+;; RefTeX parse info file
+;; File: /Users/thomasjensen/Documents/Thesis/Replies/RepliesFrankDirk30082011.tex
+;; User: thomasjensen (Thomas Jensen)
+
+(set reftex-docstruct-symbol '(
+
+
+(xr nil "\\\\\\\\\\\\")
+
+(index-tags)
+
+(is-multi nil)
+
+(bibview-cache)
+
+(master-dir . "/Users/thomasjensen/Documents/Thesis/Replies/")
+
+(label-numbers)
+
+(bof "/Users/thomasjensen/Documents/Thesis/Replies/RepliesFrankDirk30082011.tex")
+
+(toc "toc" "    1 Scope Conditions" "/Users/thomasjensen/Documents/Thesis/Replies/RepliesFrankDirk30082011.tex" nil 2 "1" "\\section{Scope Conditions}" 2002)
+
+(toc "toc" "    2 Signaling and Voting Records" "/Users/thomasjensen/Documents/Thesis/Replies/RepliesFrankDirk30082011.tex" nil 2 "2" "\\section{Signaling and Voting Records}" 3976)
+
+(toc "toc" "    3 Table 1.1: Types of Signaling in the Council" "/Users/thomasjensen/Documents/Thesis/Replies/RepliesFrankDirk30082011.tex" nil 2 "3" "\\section{Table 1.1: Types of Signaling in the Council}" 6666)
+
+(toc "toc" "    4 Signaling and Game Theory" "/Users/thomasjensen/Documents/Thesis/Replies/RepliesFrankDirk30082011.tex" nil 2 "4" "\\section{Signaling and Game Theory}" 9500)
+
+(bib "/Users/thomasjensen/Documents/library.bib")
+
+(eof "/Users/thomasjensen/Documents/Thesis/Replies/RepliesFrankDirk30082011.tex")
+))
+

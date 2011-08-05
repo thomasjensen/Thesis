@@ -60,7 +60,7 @@ dev.off()
 
 cabinets <- data[, c("policyarea","newold","Year","value","cabms","TimeInGovernment","left_right","meanLeftRight")]
 
-tableCab <- ddply(cabinets, c("cabms","newold"), function(x) data.frame(abs = sum(x$value == 2 | x$value == 4), no = sum(x$value == 1 | x$value == 3), yesNeg = sum(x$value == 5), rawDissent = sum(x$value != 0), time = unique(x$TimeInGovernment), LR = unique(x$left_right), meanlr = mean(x$meanLeftRight), deviance = abs(unique(x$left_right) - mean(x$meanLeftRight))))
+tableCab <- ddply(cabinets, c("cabms","newold"), function(x) data.frame(abs = sum(x$value == 2 | x$value == 4), no = sum(x$value == 1 | x$value == 3), yesNeg = sum(x$value == 5), rawDissent = sum(x$value != 0), time = unique(x$TimeInGovernment), LR = unique(x$left_right), meanlr = mean(x$meanLeftRight), deviance = abs(unique(x$left_right) - mean(x$meanLeftRight))^2))
 
 library(lattice)
 
@@ -156,11 +156,11 @@ tablePres <- ddply(tablePres,"PresDummy", function(x) data.frame(dissent = (sum(
 tablePresUK <- data[data$cabms == "UK_Blair_II", c("PresDummy","value")]
 tablePresUK <- ddply(tablePresUK,c("PresDummy"), function(x) data.frame(dissent = sum(x$value == 5)/nrow(x)))
 
-##
+##read libraries
 library(Zelig)
 library(mlogit)
 ###create deviance variable
-deviance <- abs(data$left_right - data$meanLeftRight)
+deviance <- (data$left_right - data$meanLeftRight)^2
 data$Deviance <- deviance
 
 ###create agriculture/regional variable
@@ -181,139 +181,358 @@ levels(data$rule_eurlexprelex)[2] <- c("Other")
 levels(data$rule_eurlexprelex)[3] <- c("Other")
 levels(data$rule_eurlexprelex)[4] <- c("Other")
 
+##recode the depedent variable to yes, no abstention yes + statement
+data$value[data$value == 3] <- 1
+data$value[data$value == 4] <- 2
+data$value[data$value == 5] <- 3
 
-data <- na.omit(data)
-
-model1 <- zelig(as.factor(value) ~ Deviance + Votes + Deviance*Votes + netBen + MeetingFreq + PresDummy + agrireg + policyarea, data = data, model = "mlogit")
-
-model2 <- zelig(as.factor(value) ~ Deviance + Votes + Deviance*Votes + netBen + MeetingFreq + PresDummy + agrireg + type_of_file +policyarea, data = data, model = "mlogit")
-
-model3 <- zelig(as.factor(value) ~ Deviance + Votes + Deviance*Votes + netBen + MeetingFreq + PresDummy + agrireg + rule_eurlexprelex + policyarea, data = data, model = "mlogit")
-
-model4 <- zelig(as.factor(value) ~ Deviance + Votes + Deviance*Votes + netBen + MeetingFreq + PresDummy + agrireg + bpoint + policyarea, data = data, model = "mlogit")
-
-model5 <- zelig(as.factor(value) ~ Deviance + Votes + Deviance*Votes + netBen + MeetingFreq + PresDummy + agrireg + type_of_file + rule_eurlexprelex + bpoint + policyarea, data = data, model = "mlogit")
-
-
-coefs <- summary(model5)@coef3[c(1:60,101:105),1]
-std.err <- summary(model1)@coef3[1:75,2]
-tvalue <- summary(model1)@coef3[1:75,3]
-
-#cbind(coefs, tvalue)
-
-mat <- matrix(NA,nc = 13, nr = 5)
-countC <- 1
-for (i in 1:13){
-  for (j in 1:5){
-    mat[j,i] <- tvalue[countC]
-    countC <- countC + 1
+##set no votes as the reference category
+for (i in 1:length(data$value)){
+  if (data$value[i] == 0){
+    data$value[i] <- 1
+  } else if (data$value[i] == 1){
+    data$value[i] <- 0
   }
 }
 
-colnames(mat) <- c("Constant","Outlier","Power","Net Beneficiary","Meeting Frequency","Presidency","Agriculture/Regional","Directive","Regulation","QMV","Unanimity","Salience","Outlier * Power")
+##new coding:
+##0 = no
+##1 = yes
+##2 = abstention
+##3 = yes + statement
 
-rownames(mat) <- c("1|2","1|3","1|4","1|5","1|6")
 
-##PREDICTED PROBABILITIES FROM MODEL 5
-#outlier
-X <- cbind(1,seq(0,2.931,0.01),10,-0.709, 7, 0, 0, 1,0,1,0,1,0,0,0,0,0,0,0,0)
-logit0 <- rep(0,294)
-logit1 <- as.matrix(X) %*% as.vector(mat[1,])
-logit2 <- as.matrix(X) %*% as.vector(mat[2,])
-logit3 <- as.matrix(X) %*% as.vector(mat[3,])
-logit4 <- as.matrix(X) %*% as.vector(mat[4,])
-logit5 <- as.matrix(X) %*% as.vector(mat[5,])
+#Analyis for employment and consumer affairs
+data_sub <- subset(data, policyarea == "Employment/Consumer")
+data_sub <- na.omit(data_sub)
+data_sub$value
 
-logits <- cbind(logit0,logit1,logit2,logit3,logit4,logit5)
-p.unscaled <- exp(logits)
-p <- p.unscaled/rowSums(p.unscaled)
+##Hausman test
+mldata <- mlogit.data(data_sub,choice="value",shape="wide")
+test <- mlogit(as.factor(value) ~ MeetingFreq, data =  data_sub, shape = "wide")
 
-plot.new()
-plot.window(xlim = c(0,2.932), ylim = c(0,1), xlab = "Outlier", ylab = "Probability")
-axis(1)
-axis(2)
-for (i in 2:6){
-  lines(seq(0,2.931,0.01), p[,i], col = i)
-}
+###with member state dummies
+model1 <- zelig(as.factor(value) ~ Deviance + MeetingFreq + msabr, data = data_sub, model = "mlogit")
 
-###zelig control
-x.low <- setx(model5, Deviance = 0, votes = 2, policyarea = "Competitiveness (internal market, industry, research and space)", rule_eurlexprelex = "QMV", type_of_file = "Regulation")
-x.high <- setx(model5, Deviance = 2, votes = 29, policyarea = "Competitiveness (internal market, industry, research and space)", rule_eurlexprelex = "QMV", type_of_file = "Regulation")
-s.out <- sim(model1, x = x.low, x1 = x.high)
+model2 <- zelig(as.factor(value) ~ Deviance + MeetingFreq + netBen + msabr, data = data, model = "mlogit")
 
-x.low <- setx(model5, netBen = -400, policyarea = "Agriculture and Fisheries", rule_eurlexprelex = "QMV", type_of_file = "Regulation")
-x.high <- setx(model5, netBen = 400, policyarea = "Agriculture and Fisheries", rule_eurlexprelex = "QMV", type_of_file = "Regulation")
-s.out <- sim(model1, x = x.low, x1 = x.high)
+model3 <- zelig(as.factor(value) ~ Deviance + MeetingFreq + netBen + PresDummy + msabr, data = data_sub, model = "mlogit")
 
-x.low <- setx(model5, netBen = -400, policyarea = "Employment, Social Policy, Health and Consumer Affairs", rule_eurlexprelex = "QMV", type_of_file = "Regulation")
-x.high <- setx(model5, netBen = 400, policyarea = "Employment, Social Policy, Health and Consumer Affairs", rule_eurlexprelex = "QMV", type_of_file = "Regulation")
-s.out <- sim(model1, x = x.low, x1 = x.high)
+model4 <- zelig(as.factor(value) ~ Deviance + MeetingFreq + netBen + PresDummy + msabr, data = data_sub, model = "mlogit")
 
-x.low <- setx(model5, Deviance = 0, policyarea = "Environment", rule_eurlexprelex = "QMV", type_of_file = "Regulation")
-x.high <- setx(model5, Deviance = 2, policyarea = "Environment", rule_eurlexprelex = "QMV", type_of_file = "Regulation")
-s.out <- sim(model1, x = x.low, x1 = x.high)
+model5 <- zelig(as.factor(value) ~ Deviance + MeetingFreq + PresDummy + bpoint + msabr, data = data_sub, model = "mlogit")
 
-#Power
-X <- cbind(1,1.175,2:29,-0.7093, 7, 0, 0, 1,0,1,0,1,0,0,0,0,0,0,0,0)
-logit0 <- rep(0,28)
-logit1 <- as.matrix(X) %*% as.vector(mat[1,])
-logit2 <- as.matrix(X) %*% as.vector(mat[2,])
-logit3 <- as.matrix(X) %*% as.vector(mat[3,])
-logit4 <- as.matrix(X) %*% as.vector(mat[4,])
-logit5 <- as.matrix(X) %*% as.vector(mat[5,])
+model6 <- zelig(as.factor(value) ~ Deviance + MeetingFreq + netBen + PresDummy + rule_eurlexprelex + type_of_file + msabr, data = data_sub, model = "mlogit")
 
-logits <- cbind(logit0,logit1,logit2,logit3,logit4,logit5)
-p.unscaled <- exp(logits)
-p <- p.unscaled/rowSums(p.unscaled)
+out6 <- summary(model6)@coef3
+out6.table <- matrix(nr = 70, nc = 3)
+count1 <- 1
+count2 <- 1
+while (count2 != 70){
+    out6.table[count2,1] <- out6[count1,1]
+    out6.table[count2,2] <- out6[count1+1,1]
+    out6.table[count2,3] <- out6[count1+2,1]
+    out6.table[count2+1,1] <- out6[count1,2]
+    out6.table[count2+1,2] <- out6[count1+1,2]
+    out6.table[count2+1,3] <- out6[count1+2,2]
+    count1 <- count1 + 3
+    count2 <- count2 + 2
+  }
+names <- rownames(out6)
+names <- gsub(":\\d{1}","",names, perl = TRUE)
+names <- gsub("msabr","",names, perl = TRUE)
+names <- gsub("rule_eurlexprelex","",names, perl = TRUE)
+names <- gsub("type_of_file","",names, perl = TRUE)
+names <- unique(names)
 
-plot.new()
-plot.window(xlim = c(2,29), ylim = c(0,1), xlab = "Power", ylab = "Probability")
-axis(1)
-axis(2)
-for (i in 2:6){
-  lines(2:29, p[,i], col = i)
-}
+rownames(out6.table) <- c(rep("",70))
+colnames(out6.table) <- c("Yes|No","Abstention|No","YesNeg|No")
 
-#Net Beneficiary
-X <- cbind(1,1.175,10,seq(-437,531,1), 7, 0, 0, 1,0,1,0,1,0,0,0,0,0,0,0,0)
-logit0 <- rep(0,969)
-logit1 <- as.matrix(X) %*% as.vector(mat[1,])
-logit2 <- as.matrix(X) %*% as.vector(mat[2,])
-logit3 <- as.matrix(X) %*% as.vector(mat[3,])
-logit4 <- as.matrix(X) %*% as.vector(mat[4,])
-logit5 <- as.matrix(X) %*% as.vector(mat[5,])
-
-logits <- cbind(logit0,logit1,logit2,logit3,logit4,logit5)
-p.unscaled <- exp(logits)
-p <- p.unscaled/rowSums(p.unscaled)
-
-plot.new()
-plot.window(xlim = c(-437,531), ylim = c(0,1), xlab = "Net Transfers", ylab = "Probability")
-axis(1)
-axis(2)
-for (i in 2:6){
-  lines(seq(-437,531,1), p[,i], col = i)
-}
-
-#agri/regional
-X <- cbind(1,1.175,10, -0.7093, 7, 0, 0:1, 1,0,1,0,1,0,0,0,0,0,0,0,0)
-logit0 <- rep(0,2)
-logit1 <- as.matrix(X) %*% as.vector(mat[1,])
-logit2 <- as.matrix(X) %*% as.vector(mat[2,])
-logit3 <- as.matrix(X) %*% as.vector(mat[3,])
-logit4 <- as.matrix(X) %*% as.vector(mat[4,])
-logit5 <- as.matrix(X) %*% as.vector(mat[5,])
-
-logits <- cbind(logit0,logit1,logit2,logit3,logit4,logit5)
-p.unscaled <- exp(logits)
-p <- p.unscaled/rowSums(p.unscaled)
-
-plot.new()
-plot.window(xlim = , ylim = c(0,1), xlab = "agri/regional", ylab = "Probability")
-axis(1)
-axis(2)
-for (i in 2:6){
-  lines(seq(-437,531,1), p[,i], col = i)
+count1 <- 1
+count2 <- 1
+while (count != 69){
+  rownames(out6.table)[count1] <- names[count2]
+  count1 <- count1 + 2
+  count2 <- count2 + 1
 }
 
 
+###calculate marginal effects
+###Deviance
+### For different member states
+beta <-cbind(matrix(coef(model6),nc = 3, byrow = TRUE),0)
+memberstates <- list()
+count <- 1
+names <- c("AUT","BEL","BGR","CYP","CZE","DEU","DNK","ESP","EST","FIN","FRA","GBR","GRC","HUN","IRL","ITA","LTU","LUX","LVA","MLT","NLD","POL","PRT","ROU","SVK","SVN","SWE")
+
+for (i in 9:35){
+  if (i == 9){
+    X <- cbind(1,seq(0,3,0.1),1,-.3,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
+  } else {
+    X <- cbind(1,seq(0,3,0.1),1,-.3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
+  X[,i] <- 1
+  }
+  P <- diag(as.vector(exp(X %*% beta) %*% as.matrix(rep(1,ncol(beta))))^-1) %*% exp(X %*% beta)
+  memberstates[[names[count]]] <- P
+  count <- count + 1
+}
+
+names <- c(rep("AUT",31),rep("BEL",31),rep("BGR",31),rep("CYP",31),rep("CZE",31),rep("DEU",31),rep("DNK",31),rep("ESP",31),rep("EST",31),rep("FIN",31),rep("FRA",31),rep("GBR",31),rep("GRC",31),rep("HUN",31),rep("IRL",31),rep("ITA",31),rep("LTU",31),rep("LUX",31),rep("LVA",31),rep("MLT",31),rep("NLD",31),rep("POL",31),rep("PRT",31),rep("ROU",31),rep("SVK",31),rep("SVN",31),rep("SWE",31))
+
+x <- rep(seq(0,3,0.1),27)
+
+memberstates <- as.data.frame(do.call(rbind,memberstates))
+memberstates$ms <- names
+memberstates$x <- x
+colnames(memberstates) <- c("No", "Yes","Abstain","YesNeg","MS","X")
+
+colors <-  palette(rainbow(27))
+mykey <- list(space = "right",
+              text = list(unique(names)),
+              points = list(pch = 19, col = colors)
+              )
+
+tikz("effectDevEmplCons.tex", width = 7, height = 6)
+xyplot(Yes + Abstain + YesNeg ~ X, groups = MS, data = memberstates, col = colors, type = "l", main = "", xlab = "Deviance", ylab = "Effect", key = mykey, layout = c(3,1))
+dev.off()
+
+##For new and old member states
+beta <-cbind(matrix(coef(model7),nc = 3, byrow = TRUE),0)
+newold <- list()
+count <- 1
+for (i in 1:2){
+  if (i == 1){
+    X <- cbind(1,seq(0,3,0.1),0,1,1,0,1,1,0)
+  } else {
+  X <- cbind(1,seq(0,3,0.1),0,1,1,0,1,1,1)
+  }
+  P <- diag(as.vector(exp(X %*% beta) %*% as.matrix(rep(1,ncol(beta))))^-1) %*% exp(X %*% beta)
+  newold[[count]] <- P
+  count <- count + 1
+}
+
+newold <- as.data.frame(do.call(rbind,newold))
+newold$ms <- c(rep("old",31),rep("new",31))
+x <- rep(seq(0,3,0.1),2)
+newold$x <- x
+
+colnames(newold) <- c("No", "Yes","Abstain","YesNeg","enlargement","X")
+
+xyplot(Yes + Abstain + YesNeg ~ X, groups = enlargement, data = newold, col = colors, type = "l", main = "", xlab = "Deviance", ylab = "Effect", key = mykey, layout = c(3,1))
+
+
+##Meeting Frequency
+beta <-cbind(matrix(coef(model6),nc = 3, byrow = TRUE),0)
+meetFreq <- list()
+count <- 1
+names <- c("AUT","BEL","BGR","CYP","CZE","DEU","DNK","ESP","EST","FIN","FRA","GBR","GRC","HUN","IRL","ITA","LTU","LUX","LVA","MLT","NLD","POL","PRT","ROU","SVK","SVN","SWE")
+
+for (i in 9:35){
+  if (i == 9){
+    X <- cbind(1,1.9,1:10,-.3,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
+  } else {
+    X <- cbind(1,1.9,1:10,-.3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
+  X[,i] <- 1
+  }
+  P <- diag(as.vector(exp(X %*% beta) %*% as.matrix(rep(1,ncol(beta))))^-1) %*% exp(X %*% beta)
+  meetFreq[[names[count]]] <- P
+  count <- count + 1
+}
+
+x <- rep(seq(1:10),27)
+
+meetFreq <- as.data.frame(do.call(rbind,meetFreq))
+meetFreq$X <- x
+names <- c(rep("AUT",10),rep("BEL",10),rep("BGR",10),rep("CYP",10),rep("CZE",10),rep("DEU",10),rep("DNK",10),rep("ESP",10),rep("EST",10),rep("FIN",10),rep("FRA",10),rep("GBR",10),rep("GRC",10),rep("HUN",10),rep("IRL",10),rep("ITA",10),rep("LTU",10),rep("LUX",10),rep("LVA",10),rep("MLT",10),rep("NLD",10),rep("POL",10),rep("PRT",10),rep("ROU",10),rep("SVK",10),rep("SVN",10),rep("SWE",10))
+meetFreq$MS <- names
+colnames(meetFreq) <- c("No", "Yes","Abstain","YesNeg","X","MS")
+
+tikz("effectMeetEmplCons.tex", width = 7, height = 6)
+xyplot(Yes + Abstain + YesNeg ~ X, groups = MS, data = meetFreq, col = colors, type = "l", main = "", xlab = "MeetingFrequency", ylab = "Effect", key = mykey, layout = c(3,1))
+dev.off()
+
+
+#Analyis for agriculture and fisheries
+data_sub <- subset(data, policyarea == "Agri/Pech")
+data_sub <- na.omit(data_sub)
+
+###with member state dummies
+model1 <- zelig(as.factor(value) ~ Deviance + MeetingFreq + msabr, data = data_sub, model = "mlogit")
+
+model2 <- zelig(as.factor(value) ~ Deviance + MeetingFreq + netBen + msabr, data = data_sub, model = "mlogit")
+
+model3 <- zelig(as.factor(value) ~ Deviance + MeetingFreq + netBen + PresDummy + msabr, data = data_sub, model = "mlogit")
+
+model4 <- zelig(as.factor(value) ~ Deviance + MeetingFreq + netBen + PresDummy + msabr, data = data_sub, model = "mlogit")
+
+model5 <- zelig(as.factor(value) ~ Deviance + MeetingFreq + PresDummy + bpoint + msabr, data = data_sub, model = "mlogit")
+
+model6 <- zelig(as.factor(value) ~ Deviance + MeetingFreq + netBen + PresDummy + rule_eurlexprelex + type_of_file + msabr, data = data_sub, model = "mlogit")
+
+
+###calculate marginal effects
+###Deviance
+### For different member states
+beta <-cbind(matrix(coef(model6),nc = 3, byrow = TRUE),0)
+memberstates <- list()
+count <- 1
+names <- c("AUT","BEL","BGR","CYP","CZE","DEU","DNK","ESP","EST","FIN","FRA","GBR","GRC","HUN","IRL","ITA","LTU","LUX","LVA","MLT","NLD","POL","PRT","ROU","SVK","SVN","SWE")
+
+for (i in 9:35){
+  if (i == 9){
+    X <- cbind(1,seq(0,3,0.1),1,-.3,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
+  } else {
+    X <- cbind(1,seq(0,3,0.1),1,-.3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
+  X[,i] <- 1
+  }
+  P <- diag(as.vector(exp(X %*% beta) %*% as.matrix(rep(1,ncol(beta))))^-1) %*% exp(X %*% beta)
+  memberstates[[names[count]]] <- P
+  count <- count + 1
+}
+
+names <- c(rep("AUT",31),rep("BEL",31),rep("BGR",31),rep("CYP",31),rep("CZE",31),rep("DEU",31),rep("DNK",31),rep("ESP",31),rep("EST",31),rep("FIN",31),rep("FRA",31),rep("GBR",31),rep("GRC",31),rep("HUN",31),rep("IRL",31),rep("ITA",31),rep("LTU",31),rep("LUX",31),rep("LVA",31),rep("MLT",31),rep("NLD",31),rep("POL",31),rep("PRT",31),rep("ROU",31),rep("SVK",31),rep("SVN",31),rep("SWE",31))
+
+x <- rep(seq(0,3,0.1),27)
+
+memberstates <- as.data.frame(do.call(rbind,memberstates))
+memberstates$ms <- names
+memberstates$x <- x
+colnames(memberstates) <- c("No", "Yes","Abstain","YesNeg","MS","X")
+
+colors <-  palette(rainbow(27))
+mykey <- list(space = "right",
+              text = list(unique(names)),
+              points = list(pch = 19, col = colors)
+              )
+
+tikz("effectDevAgriPech.tex", width = 7, height = 6)
+xyplot(Yes + Abstain + YesNeg ~ X, groups = MS, data = memberstates, col = colors, type = "l", main = "", xlab = "Deviance", ylab = "Effect", key = mykey, layout = c(3,1))
+dev.off()
+
+
+##Meeting Frequency
+beta <-cbind(matrix(coef(model6),nc = 3, byrow = TRUE),0)
+meetFreq <- list()
+count <- 1
+names <- c("AUT","BEL","BGR","CYP","CZE","DEU","DNK","ESP","EST","FIN","FRA","GBR","GRC","HUN","IRL","ITA","LTU","LUX","LVA","MLT","NLD","POL","PRT","ROU","SVK","SVN","SWE")
+
+for (i in 9:35){
+  if (i == 9){
+    X <- cbind(1,1,1:10,-.3,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
+  } else {
+    X <- cbind(1,1,1:10,-.3,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
+  X[,i] <- 1
+  }
+  P <- diag(as.vector(exp(X %*% beta) %*% as.matrix(rep(1,ncol(beta))))^-1) %*% exp(X %*% beta)
+  meetFreq[[names[count]]] <- P
+  count <- count + 1
+}
+
+x <- rep(seq(1:10),27)
+
+meetFreq <- as.data.frame(do.call(rbind,meetFreq))
+meetFreq$X <- x
+names <- c(rep("AUT",10),rep("BEL",10),rep("BGR",10),rep("CYP",10),rep("CZE",10),rep("DEU",10),rep("DNK",10),rep("ESP",10),rep("EST",10),rep("FIN",10),rep("FRA",10),rep("GBR",10),rep("GRC",10),rep("HUN",10),rep("IRL",10),rep("ITA",10),rep("LTU",10),rep("LUX",10),rep("LVA",10),rep("MLT",10),rep("NLD",10),rep("POL",10),rep("PRT",10),rep("ROU",10),rep("SVK",10),rep("SVN",10),rep("SWE",10))
+meetFreq$MS <- names
+colnames(meetFreq) <- c("No", "Yes","Abstain","YesNeg","X","MS")
+
+tikz("effectMeetAgriPech.tex", width = 7, height = 6)
+xyplot(Yes + Abstain + YesNeg ~ X, groups = MS, data = meetFreq, col = colors, type = "l", main = "", xlab = "MeetingFrequency", ylab = "Effect", key = mykey, layout = c(3,1))
+dev.off()
+ 
+#Analyis for competition 
+data_sub <- subset(data, policyarea == "Comp.")
+data_sub <- na.omit(data_sub)
+
+###with member state dummies
+model1 <- zelig(as.factor(value) ~ Deviance + MeetingFreq + msabr, data = data_sub, model = "mlogit")
+
+model2 <- zelig(as.factor(value) ~ Deviance + MeetingFreq + netBen + msabr, data = data_sub, model = "mlogit")
+
+model3 <- zelig(as.factor(value) ~ Deviance + MeetingFreq + netBen + PresDummy + msabr, data = data_sub, model = "mlogit")
+
+model4 <- zelig(as.factor(value) ~ Deviance + MeetingFreq + netBen + PresDummy + msabr, data = data_sub, model = "mlogit")
+
+model5 <- zelig(as.factor(value) ~ Deviance + MeetingFreq + PresDummy + bpoint + msabr, data = data_sub, model = "mlogit")
+
+model6 <- zelig(as.factor(value) ~ Deviance + MeetingFreq + netBen + PresDummy + rule_eurlexprelex + type_of_file + msabr, data = data_sub, model = "mlogit")
+
+
+
+###calculate marginal effects
+###Deviance
+### For different member states
+beta <-cbind(matrix(coef(model6),nc = 3, byrow = TRUE),0)
+memberstates <- list()
+count <- 1
+names <- c("AUT","BEL","BGR","CYP","CZE","DEU","DNK","ESP","EST","FIN","FRA","GBR","GRC","HUN","IRL","ITA","LTU","LUX","LVA","MLT","NLD","POL","PRT","ROU","SVK","SVN","SWE")
+
+for (i in 9:35){
+  if (i == 9){
+    X <- cbind(1,seq(0,3,0.1),1,-.3,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
+  } else {
+  X <- cbind(1,seq(0,3,0.1),1,-.3,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
+  X[,i] <- 1
+  }
+  P <- diag(as.vector(exp(X %*% beta) %*% as.matrix(rep(1,ncol(beta))))^-1) %*% exp(X %*% beta)
+  memberstates[[names[count]]] <- P
+  count <- count + 1
+}
+
+names <- c(rep("AUT",31),rep("BEL",31),rep("BGR",31),rep("CYP",31),rep("CZE",31),rep("DEU",31),rep("DNK",31),rep("ESP",31),rep("EST",31),rep("FIN",31),rep("FRA",31),rep("GBR",31),rep("GRC",31),rep("HUN",31),rep("IRL",31),rep("ITA",31),rep("LTU",31),rep("LUX",31),rep("LVA",31),rep("MLT",31),rep("NLD",31),rep("POL",31),rep("PRT",31),rep("ROU",31),rep("SVK",31),rep("SVN",31),rep("SWE",31))
+
+x <- rep(seq(0,3,0.1),27)
+
+memberstates <- as.data.frame(do.call(rbind,memberstates))
+memberstates$ms <- names
+memberstates$x <- x
+colnames(memberstates) <- c("No", "Yes","Abstain","YesNeg","MS","X")
+
+colors <-  palette(rainbow(27))
+mykey <- list(space = "right",
+              text = list(unique(names)),
+              points = list(pch = 19, col = colors)
+              )
+
+tikz("effectDevComp.tex", width = 7, height = 6)
+xyplot(Yes + Abstain + YesNeg ~ X, groups = MS, data = memberstates, col = colors, type = "l", main = "", xlab = "Deviance", ylab = "Effect", key = mykey, layout = c(3,1))
+dev.off()
+
+
+##Meeting Frequency
+beta <-cbind(matrix(coef(model6),nc = 3, byrow = TRUE),0)
+meetFreq <- list()
+count <- 1
+names <- c("AUT","BEL","BGR","CYP","CZE","DEU","DNK","ESP","EST","FIN","FRA","GBR","GRC","HUN","IRL","ITA","LTU","LUX","LVA","MLT","NLD","POL","PRT","ROU","SVK","SVN","SWE")
+
+for (i in 9:35){
+  if (i == 9){
+    X <- cbind(1,1.9,1:10,-.3,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
+  } else {
+    X <- cbind(1,1.9,1:10,-.3,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
+  X[,i] <- 1
+  }
+  P <- diag(as.vector(exp(X %*% beta) %*% as.matrix(rep(1,ncol(beta))))^-1) %*% exp(X %*% beta)
+  meetFreq[[names[count]]] <- P
+  count <- count + 1
+}
+
+x <- rep(seq(1:10),27)
+
+meetFreq <- as.data.frame(do.call(rbind,meetFreq))
+meetFreq$X <- x
+names <- c(rep("AUT",10),rep("BEL",10),rep("BGR",10),rep("CYP",10),rep("CZE",10),rep("DEU",10),rep("DNK",10),rep("ESP",10),rep("EST",10),rep("FIN",10),rep("FRA",10),rep("GBR",10),rep("GRC",10),rep("HUN",10),rep("IRL",10),rep("ITA",10),rep("LTU",10),rep("LUX",10),rep("LVA",10),rep("MLT",10),rep("NLD",10),rep("POL",10),rep("PRT",10),rep("ROU",10),rep("SVK",10),rep("SVN",10),rep("SWE",10))
+meetFreq$MS <- names
+colnames(meetFreq) <- c("No", "Yes","Abstain","YesNeg","X","MS")
+
+tikz("effectMeetComp.tex", width = 7, height = 6)
+xyplot(Yes + Abstain + YesNeg ~ X, groups = MS, data = meetFreq, col = colors, type = "l", main = "", xlab = "MeetingFrequency", ylab = "Effect", key = mykey, layout = c(3,1))
+dev.off()
+ 
+
+
+
+
+
+
+#cbind(coefs, tvalue)

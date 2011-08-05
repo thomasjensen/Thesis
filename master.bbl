@@ -12,6 +12,11 @@ Axelrod, Robert. 1986.
 \newblock ``{An Evolutionary Approach to Norms}.'' {\em The American Political
   Science Review} 80(4):1095 -- 1111.
 
+\harvarditem{Beck}{1992}{Beck1992}
+Beck, Nathaniel. 1992.
+\newblock ``{The Methodology of Cointegration}.'' {\em Political Analysis}
+  4(1):237--247.
+
 \harvarditem{Beyers}{2002}{Beyers2002}
 Beyers, Jan. 2002.
 \newblock ``{Gaining and seeking access: The European adaptation of domestic
@@ -21,6 +26,18 @@ Beyers, Jan. 2002.
 \harvarditem{Bicchieri}{1990}{Bicchieri1990}
 Bicchieri, Cristina. 1990.
 \newblock ``{Norms of Cooperation}.'' {\em Ethics} 100(4):838--861.
+
+\harvarditem{Bicchieri}{2006}{Bicchieri2006}
+Bicchieri, Cristina. 2006.
+\newblock {\em {The grammar of society: the nature and dynamics of social
+  norms}}.
+\newblock Cambridge University Press.
+
+\harvarditem[Bicchieri, Jeffrey \harvardand\ Skyrms]{Bicchieri, Jeffrey
+  \harvardand\ Skyrms}{1997}{BicchieriJeffreySkyrms1997}
+Bicchieri, Cristina, Richard~C. Jeffrey \harvardand\ Brian Skyrms. 1997.
+\newblock {\em {The dynamics of norms}}.
+\newblock Cambridge University Press.
 
 \harvarditem{Bjurulf \harvardand\ Elgstrom}{2004}{BjurulfElgstrom2004}
 Bjurulf, Bo \harvardand\ Ole Elgstrom. 2004.
@@ -64,6 +81,14 @@ D$\backslash$"\{o\}ring, Holger \harvardand\ Mannow Philip. 2010.
 \newblock ``{Parliament and Government Composition Database (ParlGov): An
   Infrastructure for Empirical Information on Political Institutions}.''.
 
+\harvarditem[de~Soysa, Oneal \harvardand\ Park]{de~Soysa, Oneal \harvardand\
+  Park}{1997}{DeSoysa1997}
+de~Soysa, I., J.~R. Oneal \harvardand\ Y.-H. Park. 1997.
+\newblock ``{Testing Power-Transition Theory Using Alternative Measures of
+  National Capabilities}.'' {\em Journal of Conflict Resolution}
+  41(4):509--528.
+\newline\harvardurl{http://jcr.sagepub.com/cgi/content/abstract/41/4/509}
+
 \harvarditem{Diekmann}{2004}{Diekmann2004}
 Diekmann, Andreas. 2004.
 \newblock ``{The Power of Reciprocity: Fairness, Reciprocity, and Stakes in
@@ -82,18 +107,19 @@ Elgie, Robert. 2006.
   {\em Governance} 19(2):207--227.
 \newline\harvardurl{http://doi.wiley.com/10.1111/j.1468-0491.2006.00312.x}
 
-\harvarditem{Elgstr\"{o}m \harvardand\ J\"{o}nsson}{2000}{ElgstromJonsson2000}
-Elgstr\"{o}m, Ole \harvardand\ Christer J\"{o}nsson. 2000.
-\newblock ``{Negotiation in the European Union: bargaining or
-  problem-solving?}'' {\em Journal of European Public Policy} 7(5):684--704.
-
 \harvarditem{Elster}{1989}{Elster1989}
 Elster, Jon. 1989.
 \newblock ``{Social Norms and Economic Theory}.'' {\em The Journal of Economic
   Perspectives} 3(4):99--117.
 
+\harvarditem{Elster}{2007}{Elster2007}
+Elster, Jon. 2007.
+\newblock {\em {Explaining social behavior: more nuts and bolts for the social
+  sciences}}.
+\newblock Cambridge University Press.
+
 \harvarditem[Epstein, Segal \harvardand\ Spaeth]{Epstein, Segal \harvardand\
-  Spaeth}{2001}{Epstein2001}
+  Spaeth}{2001}{EpsteinSegalSpaeth2001}
 Epstein, Lee, Jeffrey~A Segal \harvardand\ Harold~J Spaeth. 2001.
 \newblock ``{The Norm of Consensus in the U.S. Supreme Court}.'' {\em American
   Journal of Political Science} 45(2):362--377.
@@ -125,6 +151,12 @@ Franchino, Fabio. 2004.
 \newblock ``{Delegating Powers in the European Community}.'' {\em British
   Journal of Political Science} 34(2):269--293.
 
+\harvarditem[Gelman, Katz \harvardand\ Bafumi]{Gelman, Katz \harvardand\
+  Bafumi}{2003}{Gelman2003a}
+Gelman, Andrew, Jonathan~N Katz \harvardand\ Joseph Bafumi. 2003.
+\newblock ``{Standard Voting Power Indexes Don’t Work: An Empirical Analysis
+  1}.''.
+
 \harvarditem{Goldstein}{1991}{Goldstein1991}
 Goldstein, Joshua. 1991.
 \newblock ``{Reciprocity in Superpower Relations: An Empirical Analysis}.''
@@ -140,15 +172,15 @@ H\"{a}ge, Frank~M. 2008.
 \newblock ``{Who Decides in the Council of the European Union?}'' {\em JCMS:
   Journal of Common Market Studies} 46(3):533--558.
 
-\harvarditem{Hagemann}{2007}{Hagemann2007}
-Hagemann, Sara. 2007.
-\newblock ``{Applying Ideal Point Estimation Methods to the Council of
-  Ministers}.'' {\em European Union Politics} 8(2):279--296.
-
 \harvarditem{Hagemann \harvardand\ Hoyland}{2008}{Hagemann2008}
 Hagemann, Sara \harvardand\ Bjorn Hoyland. 2008.
 \newblock ``{Parties in the Council?}'' {\em Journal of European Public Policy}
   15(8):1205--1221.
+
+\harvarditem{Hagemann \harvardand\ Clerck-sachsse}{2007}{Hagemann2007}
+Hagemann, Sara \harvardand\ Julia~De Clerck-sachsse. 2007.
+\newblock ``{Decision Making in the Enlarged Council of Ministers: Evaluating
+  the Facts}.''.
 
 \harvarditem[Hayes-renshaw, Aken \harvardand\ Wallace]{Hayes-renshaw, Aken
   \harvardand\ Wallace}{2006}{Hayes-renshaw2006}
@@ -167,11 +199,22 @@ Heisenberg, Dorothee. 2005.
   Informal Decision-Making in the Council}.'' {\em European Journal of
   Political Research} 44:65--90.
 
+\harvarditem{Hinich \harvardand\ Munger}{1997}{HinichMunger1997}
+Hinich, Melvin~J. \harvardand\ Michael~C. Munger. 1997.
+\newblock {\em {Analytical Politics}}.
+\newblock Cambridge University Press.
+
 \harvarditem{Hix}{2002}{Hix2002}
 Hix, Simon. 2002.
 \newblock ``{Parliamentary Behavior with Two Principals: Preferences and Voting
   in the European Parliament}.'' {\em American Journal of Political Science}
   46(3):688 -- 698.
+
+\harvarditem{Hix}{2005}{Hix2005}
+Hix, Simon. 2005.
+\newblock {\em {The Political System of the European Union}}.
+\newblock Palgrave Macmillan.
+\newline\harvardurl{http://www.amazon.co.uk/Political-System-European-Union/dp/033396182X}
 
 \harvarditem[Hix, Noury \harvardand\ Roland]{Hix, Noury \harvardand\
   Roland}{2007}{HixNouryRoland2007}
@@ -233,6 +276,12 @@ Krehbiel, Keith \harvardand\ Douglas Rivers. 1988.
   on the Minimum Wage}.'' {\em American Journal of Political Science}
   32(4):1151--1174.
 
+\harvarditem{Lempp \harvardand\ Altenschmidt}{2008}{Lempp2008}
+Lempp, Jakob \harvardand\ Janko Altenschmidt. 2008.
+\newblock ``{The Prevention of Deadlock through Informal Processes of
+  'Supranationalization': The Case of Coreper}.'' {\em Journal of European
+  Integration} 30(4):511--526.
+
 \harvarditem{Lewis}{1998}{Lewis1998}
 Lewis, Jeffrey. 1998.
 \newblock ``{Is the "hard Bargaining" Image of the Council Misleading? The
@@ -262,11 +311,6 @@ Malinowski, Bronislaw. 1922.
 \newblock {\em {Argonauts of the Western Pacific}}.
 \newblock Routledge.
 
-\harvarditem{March \harvardand\ Olsen}{1998}{MarchOlsen1998}
-March, James~G. \harvardand\ Johan~P. Olsen. 1998.
-\newblock ``{The New Institutionalism: Organizational Factors in Political
-  Life}.'' {\em American Political Science Review} 78(3):734 -- 749.
-
 \harvarditem{Martin \harvardand\ Stevenson}{2001}{MartinStevenson2001}
 Martin, Lanny~W. \harvardand\ Randolph~T. Stevenson. 2001.
 \newblock ``{Government Formation in Parliamentary Democracies}.'' {\em
@@ -288,6 +332,11 @@ Mauss, Marcel. 1990.
 \newblock {\em {The Gift}}.
 \newblock Routledge.
 
+\harvarditem{Moberg}{2002}{Moberg2002}
+Moberg, Axel. 2002.
+\newblock ``{The Nice Treaty and Voting Rules in the Council}.'' {\em Journal
+  of Common Market Studies} 40(2):259--282.
+
 \harvarditem{M\"{u}hlb\"{o}ck}{2011}{Muehlbock2011}
 M\"{u}hlb\"{o}ck, Monika. 2011.
 \newblock ``{Biased data? Deducing policy preferences from “voting” in the
@@ -302,9 +351,14 @@ Olsen, Jan~M. 2011.
 \newblock ``{Denmark in Customs Check Spat With Germans}.''.
 \newline\harvardurl{http://www.businessweek.com/ap/financialnews/D9NNOP401.htm}
 
+\harvarditem{Poole}{2005}{Poole2005}
+Poole, Keith~T. 2005.
+\newblock {\em {Spatial Models of Parliamentary Voting}}.
+\newblock Cambridge University Press.
+
 \harvarditem{Putnam}{1995}{Putnam1995}
 Putnam, Robert~D. 1995.
-\newblock ``{Bowling Alone by}.'' {\em Journal of Democracy} 6(1):65 -- 78.
+\newblock ``{Bowling Alone}.'' {\em Journal of Democracy} 6(1):65 -- 78.
 
 \harvarditem{Rajmaira}{1997}{Rajmaira1997}
 Rajmaira, Sheen. 1997.
@@ -329,6 +383,12 @@ Schimmelfennig, F. 2003.
   Enlarge the European Union to the East}.'' {\em Comparative Political
   Studies} 36(1-2):156--183.
 
+\harvarditem{Tallberg}{2008}{Tallberg2008}
+Tallberg, Jonas. 2008.
+\newblock ``{Bargaining Power in the European Council}.'' {\em JCMS: Journal of
+  Common Market Studies} 46(3):685--708.
+\newline\harvardurl{http://doi.wiley.com/10.1111/j.1468-5965.2008.00798.x}
+
 \harvarditem[Thomson et~al.]{Thomson, Stokman, Achen \harvardand\
   K\"{o}nig}{2006}{Thomson2006a}
 Thomson, Robert, Frans~N. Stokman, Christopher~H. Achen \harvardand\ Thomas
@@ -343,7 +403,7 @@ Volden, Craig. 1998.
 
 \harvarditem{Ward \harvardand\ Rajmaira}{1990}{RajmairaWard1990}
 Ward, Michael~D. \harvardand\ Sheen Rajmaira. 1990.
-\newblock ``{Evolving Foreign Policy Norms: Reciprocity inthe Superpower
+\newblock ``{Evolving Foreign Policy Norms: Reciprocity in the Superpower
   Triad}.'' {\em International Studies Quarterly} 34(4):457 -- 475.
 
 \harvarditem{Ward \harvardand\ Rajmaira}{1992}{RajmairaWard1992}
@@ -356,11 +416,10 @@ Warntjen, a. 2008.
 \newblock ``{The Council Presidency: Power Broker or Burden? An Empirical
   Analysis}.'' {\em European Union Politics} 9(3):315--338.
 
-\harvarditem{Warntjen}{2010}{Warntjen2010}
-Warntjen, Andreas. 2010.
-\newblock ``{Between bargaining and deliberation: decision-making in the
-  Council of the European Union}.'' {\em Journal of European Public Policy}
-  17(5):665--679.
-\newline\harvardurl{http://www.informaworld.com/openurl?genre=article\&doi=10.1080/13501761003748641\&magic=crossref||D404A21C5BB053405B1A640AFFD44AE3}
+\harvarditem[Zimmer, Schneider \harvardand\ Dobbins]{Zimmer, Schneider
+  \harvardand\ Dobbins}{2005}{ZimmerSchneiderDobbins2005}
+Zimmer, Christina, Gerald Schneider \harvardand\ Michael Dobbins. 2005.
+\newblock ``{The Contested Council: Conflict Dimensions of an Intergovernmental
+  EU Institution}.'' {\em Political Studies} 53:403--422.
 
 \end{thebibliography}
