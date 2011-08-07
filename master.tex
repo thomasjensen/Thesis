@@ -19,7 +19,7 @@
 \newif\iffelinenonum 
 \newcommand\MyNumToName[1]{%
       \ifcase#1\relax % case 0 
-      \or First\or Second\or Third% 
+      \or First\or Second\or Third \or Fourth% 
       \else Not implemented\fi}
       
 \makechapterstyle{daleif3}{ 
@@ -55,9 +55,10 @@
 
 \begin{document} 
 
-%\include{Introduction/Introduction}
+\include{Introduction/Introduction}
 \include{Theory_Chapter/theory}
 \include{VoteChoice_Chapter/VoteChoice}
+\include{TimeSeries_Chapter/TimeSeries}
 
 \bibliography{/Users/thomasjensen/Documents/library}
 \bibliographystyle{apsr}

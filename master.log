@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.27)  5 AUG 2011 10:43
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.27)  6 AUG 2011 12:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -984,8 +984,8 @@ LaTeX Font Info:    Redeclaring math accent \dot on input line 255.
 LaTeX Font Info:    Redeclaring math accent \mathring on input line 256.
 \symUfutm=\mathgroup5
 )
-(./master.aux (./Theory_Chapter/theory.aux)
-(./VoteChoice_Chapter/VoteChoice.aux))
+(./master.aux (./Introduction/Introduction.aux) (./Theory_Chapter/theory.aux)
+(./VoteChoice_Chapter/VoteChoice.aux) (./TimeSeries_Chapter/TimeSeries.aux))
 \openout1 = `master.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
@@ -1127,9 +1127,9 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EveryShipout initializing macros
-\openout2 = `Theory_Chapter/theory.aux'.
+\openout2 = `Introduction/Introduction.aux'.
 
- (./Theory_Chapter/theory.tex
+ (./Introduction/Introduction.tex
 LaTeX Font Info:    Try loading font information for U+futs on input line 1.
 
 (/usr/local/texlive/2010/texmf-dist/tex/latex/fourier/ufuts.fd
@@ -1137,35 +1137,258 @@ File: ufuts.fd 2004/03/26 Fontinst v1.926 font definitions for U/futs.
 )
 LaTeX Font Info:    Font shape `U/futs/m/it' in size <17.28> not available
 (Font)              Font shape `U/futs/m/sl' tried instead on input line 1.
-LaTeX Font Info:    Try loading font information for FML+futmi on input line 4.
+LaTeX Font Info:    Try loading font information for FML+futmi on input line 3.
 
 
 (/usr/local/texlive/2010/texmf-dist/tex/latex/fourier/fmlfutmi.fd
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 4.
+(Font)              scaled to size 11.03998pt on input line 3.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 4.
+(Font)              scaled to size 8.27998pt on input line 3.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 4.
+(Font)              scaled to size 6.43999pt on input line 3.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 4.
+(Font)              scaled to size 11.03998pt on input line 3.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 4.
+(Font)              scaled to size 8.27998pt on input line 3.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 4.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+(Font)              scaled to size 6.43999pt on input line 3.
  [1
 
 
 
 {/usr/local/texlive/2010/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+[]|\T1/futs/m/n/12 Local
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+\T1/futs/m/n/12 Elec-tions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+[]|\T1/futs/m/n/12 Legal Af-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+[]|\T1/futs/m/n/12 Strong ef-
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 54--55
+\T1/futs/m/n/12 fect of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+\T1/futs/m/n/12 con-sen-sus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+[]|\T1/futs/m/n/12 Working
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+\T1/futs/m/n/12 Time Di-
+ []
+
+
+Overfull \hbox (7.93042pt too wide) in paragraph at lines 55--55
+[]|\T1/futs/m/n/12 Employmant
+ []
+
+
+Underfull \hbox (badness 4940) in paragraph at lines 55--55
+\T1/futs/m/n/12 and So-cial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+[]|\T1/futs/m/n/12 Consensus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+\T1/futs/m/n/12 norm was
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+\T1/futs/m/n/12 trumped
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+\T1/futs/m/n/12 by do-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+\T1/futs/m/n/12 mes-tic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+[]|\T1/futs/m/n/12 Internal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+\T1/futs/m/n/12 En-ergy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+\T1/futs/m/n/12 Mar-ket
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+[]|\T1/futs/m/n/12 Internal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+[]|\T1/futs/m/n/12 The con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+\T1/futs/m/n/12 sen-sus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+\T1/futs/m/n/12 in con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+\T1/futs/m/n/12 junc-tion
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 56--57
+\T1/futs/m/n/12 with fo-mal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+\T1/futs/m/n/12 in-sti-tu-
+ []
+
+
+Overfull \hbox (10.97841pt too wide) in paragraph at lines 57--57
+[]|\T1/futs/m/n/12 Transparancy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+[]|\T1/futs/m/n/12 Legal Af-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+[]|\T1/futs/m/n/12 The con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+\T1/futs/m/n/12 sen-sus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+\T1/futs/m/n/12 norm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+\T1/futs/m/n/12 work in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+\T1/futs/m/n/12 con-junc-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+\T1/futs/m/n/12 tion with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+\T1/futs/m/n/12 for-mal in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|\T1/futs/m/n/12 Dublin II
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|\T1/futs/m/n/12 Justice
+ []
+
+
+Underfull \hbox (badness 2781) in paragraph at lines 58--58
+\T1/futs/m/n/12 and Home
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|\T1/futs/m/n/12 Strong ef-
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 58--58
+\T1/futs/m/n/12 fect of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+\T1/futs/m/n/12 con-sen-sus
+ []
+
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 65.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 65.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 65.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 65.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 65.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 65.
+[2] [3]
+Underfull \vbox (badness 2057) has occurred while \output is active []
+
+ [4])
+[5] [6]
+\openout2 = `Theory_Chapter/theory.aux'.
+
+ (./Theory_Chapter/theory.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7
+
+
+
+]
 Underfull \vbox (badness 2326) has occurred while \output is active []
 
- [2]
+ [8]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 17.
 
@@ -1174,13 +1397,13 @@ Overfull \hbox (0.23856pt too wide) in paragraph at lines 19--20
 ex-am-ined vot-ing in the Coun-
  []
 
-[3]
+[9]
 Underfull \vbox (badness 7869) has occurred while \output is active []
 
- [4]
+ [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
+ [11]
 Underfull \hbox (badness 10000) in paragraph at lines 49--49
 []\T1/futs/m/n/8 Left-most
  []
@@ -1205,45 +1428,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--49
 \T1/futs/m/n/8 of De-ci-sive
  []
 
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 54.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 54.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 54.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 54.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 54.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 54.
-[6] [7]
+[12] [13]
 Underfull \vbox (badness 2326) has occurred while \output is active []
 
- [8]
-[9] [10] [11] [12]
+ [14]
+[15] [16] [17] [18]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 133.
 
 
-LaTeX Warning: Reference `chapter:data' on page 13 undefined on input line 133.
+LaTeX Warning: Reference `chapter:data' on page 19 undefined on input line 133.
 
 
 
 Underfull \vbox (badness 7869) has occurred while \output is active []
 
- [13]
-[14]
+ [19]
+[20]
 Overfull \hbox (0.49062pt too wide) in paragraph at lines 175--176
 \T1/futs/m/n/12 Diffuse reci-procity as de-fined above is closely as-so-ci-ated
  with the rise of so-cial norms.
  []
 
-[15] [16] [17] [18] [19]
+[21] [22] [23] [24] [25]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
-[21]) [22]
+ [26]
+[27]) [28]
 \openout2 = `VoteChoice_Chapter/VoteChoice.aux'.
 
  (./VoteChoice_Chapter/VoteChoice.tex
@@ -1252,23 +1463,23 @@ Overfull \hbox (1.57848pt too wide) in paragraph at lines 5--6
 unan-i-mously
  []
 
-[23
+[29
 
 
 
-] [24]
+] [30]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25]
+ [31]
 Overfull \hbox (4.13548pt too wide) in paragraph at lines 23--24
 []\T1/futs/m/n/12 In the ab-sence of do-mes-tic con-straints, gov-ern-ments mig
 ht find them-selves highly
  []
 
-[26] [27]
+[32] [33]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 64.
- [28]
+ [34]
 Overfull \hbox (9.10599pt too wide) in paragraph at lines 70--71
 \T1/futs/m/n/12 dossiers that do not re-quire dis-cus-sion at the min-is-te-ria
 l level, and B points are dossiers
@@ -1277,28 +1488,28 @@ l level, and B points are dossiers
 
 Underfull \vbox (badness 2326) has occurred while \output is active []
 
- [29]
-[30] (./VoteChoice_Chapter/Figures/depvar.tex)
+ [35]
+[36] (./VoteChoice_Chapter/Figures/depvar.tex)
 (./VoteChoice_Chapter/Figures/scatter1.tex)
 (./VoteChoice_Chapter/Figures/scatter2.tex)
-(./VoteChoice_Chapter/Figures/scatter3.tex) [31] [32] [33]
+(./VoteChoice_Chapter/Figures/scatter3.tex) [37] [38] [39]
 (./VoteChoice_Chapter/Figures/histogramNo.tex)
 (./VoteChoice_Chapter/Figures/histogramAbs.tex)
 (./VoteChoice_Chapter/Figures/histogramYesNeg.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
-[35]
+ [40]
+[41]
 Overfull \hbox (3.15143pt too wide) in paragraph at lines 155--156
 []\T1/futs/m/n/12 Finally, for hy-poth-e-sis three we use a mea-sure of meet-in
 g ac-tiv-ity within the Coun-
  []
 
-[36] [37]
+[42] [43]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
-[39]
+ [44]
+[45]
 Underfull \hbox (badness 2165) in paragraph at lines 199--199
 []|\T1/futs/m/n/12 The po-si-tion of each gov-
  []
@@ -1318,82 +1529,443 @@ Underfull \hbox (badness 1221) in paragraph at lines 199--199
 []|\T1/futs/m/n/12 A cat-e-gor-i-cal vari-able cod-
  []
 
-[40] (./VoteChoice_Chapter/Figures/effectDevEmplCons.tex)
+[46] (./VoteChoice_Chapter/Figures/effectDevEmplCons.tex)
 (./VoteChoice_Chapter/Figures/effectMeetEmplCons.tex)
 Underfull \vbox (badness 3199) has occurred while \output is active []
 
- [41]
+ [47]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42]
+ [48]
 (./VoteChoice_Chapter/Figures/effectDevAgriPech.tex)
 (./VoteChoice_Chapter/Figures/effectMeetAgriPech.tex)
 Underfull \vbox (badness 1484) has occurred while \output is active []
 
- [43]
+ [49]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44]
+ [50]
 (./VoteChoice_Chapter/Figures/effectDevComp.tex)
 (./VoteChoice_Chapter/Figures/effectMeetComp.tex)
 Underfull \vbox (badness 1484) has occurred while \output is active []
 
- [45]
+ [51]
 Underfull \vbox (badness 3525) has occurred while \output is active []
 
- [46]
+ [52]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47]
-[48]) [49] (./master.bbl [50
+ [53]
+[54]) [55]
+\openout2 = `TimeSeries_Chapter/TimeSeries.aux'.
+
+ (./TimeSeries_Chapter/TimeSeries.tex [56
 
 
-] [51]
-Underfull \hbox (badness 3803) in paragraph at lines 104--109
+
+]
+
+Package natbib Warning: Citation `Hayes-Renshawetal2006' on page 57 undefined o
+n input line 8.
+
+
+Package natbib Warning: Citation `Durr1992' on page 57 undefined on input line 
+8.
+
+
+Package natbib Warning: Citation `Pfaff2008' on page 57 undefined on input line
+ 8.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57]
+
+Package natbib Warning: Citation `Bicchieri1997' on page 58 undefined on input 
+line 18.
+
+
+Package natbib Warning: Citation `Bicchieri1997' on page 58 undefined on input 
+line 34.
+
+[58] [59]
+
+Package natbib Warning: Citation `Hayes-Renshawetal2006' on page 60 undefined o
+n input line 113.
+
+
+Package natbib Warning: Citation `HoylandHagemann2008' on page 60 undefined on 
+input line 121.
+
+
+Overfull \hbox (6.1426pt too wide) in paragraph at lines 106--139
+\T1/futs/m/n/12 per-cent of le-gal acts unan-i-mously (Mat-tila and Lane, 2001;
+ Mat-tila, 2004, 2009; Heisen-
+ []
+
+[60]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61]
+
+Package natbib Warning: Citation `HoylandHagemann2008' on page 62 undefined on 
+input line 144.
+
+[62]
+
+Package natbib Warning: Citation `Pfaff2008' on page 63 undefined on input line
+ 148.
+
+[63]
+
+Package natbib Warning: Citation `Durr1992' on page 64 undefined on input line 
+157.
+
+
+Package natbib Warning: Citation `Pfaff2008' on page 64 undefined on input line
+ 157.
+
+
+Package natbib Warning: Citation `Hayes-Renshawetal2006' on page 64 undefined o
+n input line 160.
+
+[64]
+
+LaTeX Warning: File `timeseries.pdf' not found on input line 164.
+
+
+! Package pdftex.def Error: File `timeseries.pdf' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.164 \includegraphics[scale=.6]{timeseries.pdf}
+                                                
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 164.
+(/usr/local/texlive/2010/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+
+Package natbib Warning: Citation `Pfaff2008' on page 65 undefined on input line
+ 169.
+
+
+Package natbib Warning: Citation `KwiatkowskiPhillipsSchmidtShin1992' on page 6
+5 undefined on input line 172.
+
+[65]
+
+Package natbib Warning: Citation `EngleGranger1987' on page 66 undefined on inp
+ut line 195.
+
+
+Package natbib Warning: Citation `Durr1992' on page 66 undefined on input line 
+195.
+
+
+Package natbib Warning: Citation `Pfaff2008' on page 66 undefined on input line
+ 195.
+
+[66]
+Overfull \hbox (3.86398pt too wide) detected at line 206
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 74)$ 
+ []
+
+
+Overfull \hbox (3.86398pt too wide) detected at line 206
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 22)$ 
+ []
+
+
+Overfull \hbox (3.86398pt too wide) detected at line 206
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 94)$ 
+ []
+
+
+Overfull \hbox (3.86398pt too wide) detected at line 207
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 12)$ 
+ []
+
+
+Overfull \hbox (3.86398pt too wide) detected at line 208
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 07)$ 
+ []
+
+
+Overfull \hbox (3.86398pt too wide) detected at line 208
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 07)$ 
+ []
+
+
+Overfull \hbox (3.86398pt too wide) detected at line 210
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 31)$ 
+ []
+
+
+Overfull \hbox (3.86398pt too wide) detected at line 211
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 30)$ 
+ []
+
+
+Overfull \hbox (3.86398pt too wide) detected at line 212
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 91)$ 
+ []
+
+
+Overfull \hbox (3.86398pt too wide) detected at line 213
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 89)$ 
+ []
+
+
+Overfull \hbox (2.74347pt too wide) in paragraph at lines 222--223
+[]\T1/futs/m/n/12 Because of au-tore-gres-sion the sig-nif-i-cance val-ues of t
+he mod-els can-not be trusted,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+[]|\T1/futs/m/n/12 Residuals
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+\T1/futs/m/n/12 With Ab-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+\T1/futs/m/n/12 sten-tions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+[]|\T1/futs/m/n/12 Residuals
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+\T1/futs/m/n/12 With No
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+\T1/futs/m/n/12 Votes De-
+ []
+
+[67]
+
+Package natbib Warning: Citation `Durr1992' on page 68 undefined on input line 
+246.
+
+
+Package natbib Warning: Citation `EngleGranger1987' on page 68 undefined on inp
+ut line 246.
+
+[68] [69]
+
+Package natbib Warning: Citation `Granger1988' on page 70 undefined on input li
+ne 280.
+
+
+Overfull \hbox (3.86398pt too wide) detected at line 288
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 81)$ 
+ []
+
+
+Overfull \hbox (3.86398pt too wide) detected at line 288
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 06)$ 
+ []
+
+
+Overfull \hbox (3.86398pt too wide) detected at line 288
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 23)$ 
+ []
+
+
+Overfull \hbox (3.86398pt too wide) detected at line 289
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 31)$ 
+ []
+
+
+Overfull \hbox (5.756pt too wide) detected at line 289
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 65[]$ 
+ []
+
+
+Overfull \hbox (5.756pt too wide) detected at line 290
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 65[]$ 
+ []
+
+
+Overfull \hbox (3.86398pt too wide) detected at line 290
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 28)$ 
+ []
+
+
+Overfull \hbox (3.86398pt too wide) detected at line 290
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 16)$ 
+ []
+
+
+Overfull \hbox (3.86398pt too wide) detected at line 290
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 28)$ 
+ []
+
+
+Overfull \hbox (3.86398pt too wide) detected at line 291
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 17)$ 
+ []
+
+
+Overfull \hbox (5.756pt too wide) detected at line 291
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 46[]$ 
+ []
+
+
+Overfull \hbox (5.756pt too wide) detected at line 291
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 47[]$ 
+ []
+
+
+Overfull \hbox (3.86398pt too wide) detected at line 292
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 14)$ 
+ []
+
+
+Overfull \hbox (3.86398pt too wide) detected at line 292
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 08)$ 
+ []
+
+
+Overfull \hbox (3.86398pt too wide) detected at line 292
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 14)$ 
+ []
+
+
+Overfull \hbox (3.86398pt too wide) detected at line 293
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 08)$ 
+ []
+
+
+Overfull \hbox (5.756pt too wide) detected at line 293
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 84[]$ 
+ []
+
+
+Overfull \hbox (5.756pt too wide) detected at line 293
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 84[]$ 
+ []
+
+
+Overfull \hbox (3.86398pt too wide) detected at line 294
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 19)$ 
+ []
+
+
+Overfull \hbox (3.86398pt too wide) detected at line 294
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 19)$ 
+ []
+
+
+Overfull \hbox (5.756pt too wide) detected at line 295
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 91[]$ 
+ []
+
+
+Overfull \hbox (5.756pt too wide) detected at line 296
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 91[]$ 
+ []
+
+
+Overfull \hbox (3.86398pt too wide) detected at line 296
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 23)$ 
+ []
+
+
+Overfull \hbox (3.86398pt too wide) detected at line 297
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 23)$ 
+ []
+
+
+Overfull \hbox (3.86398pt too wide) detected at line 298
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 93)$ 
+ []
+
+
+Overfull \hbox (3.86398pt too wide) detected at line 299
+$\FML/futmi/m/it/12 :\T1/futs/m/n/12 31)$ 
+ []
+
+[70]
+
+Package natbib Warning: Citation `Steunenberg1996' on page 71 undefined on inpu
+t line 313.
+
+
+Package natbib Warning: Citation `Tallberg2002' on page 71 undefined on input l
+ine 313.
+
+[71]) [72] (./master.bbl [73
+
+
+]
+Underfull \hbox (badness 3803) in paragraph at lines 111--116
 []\T1/futs/m/n/12 Elgie, Robert. 2006.  ``Why Do Gov-ern-ments Del-e-gate Au-th
 or-ity to Quasi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--131
+Underfull \hbox (badness 10000) in paragraph at lines 141--144
 \T1/futs/b/n/12 URL: \T1/futs/m/it/12 http://www.euractiv.com/en/future-eu/denm
 ark-rebuilds-borders-
  []
 
-[52] [53]
-Overfull \hbox (344.39993pt too wide) in paragraph at lines 248--252
+[74] [75]
+Overfull \hbox (344.39993pt too wide) in paragraph at lines 267--271
 \T1/futs/b/n/12 URL: \T1/futs/m/it/12 http://www.informaworld.com/openurl?genre
 =article&doi=10.1080/13501760010014902&magic=crossref||D404A21C5BB053405B1A640A
 FFD44AE3 
  []
 
-[54] [55]) [56] (./master.aux (./Theory_Chapter/theory.aux)
-(./VoteChoice_Chapter/VoteChoice.aux))
+[76] [77] [78])
+
+Package natbib Warning: There were undefined citations.
+
+[79] (./master.aux (./Introduction/Introduction.aux)
+(./Theory_Chapter/theory.aux) (./VoteChoice_Chapter/VoteChoice.aux)
+(./TimeSeries_Chapter/TimeSeries.aux))
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 22620 strings out of 493763
- 403598 string characters out of 3144954
- 670556 words of memory out of 3000000
- 25525 multiletter control sequences out of 15000+200000
- 117639 words of font info for 107 fonts, out of 3000000 for 9000
+ 22721 strings out of 493763
+ 405553 string characters out of 3144954
+ 673389 words of memory out of 3000000
+ 25597 multiletter control sequences out of 15000+200000
+ 128213 words of font info for 118 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  61i,12n,61p,4764b,800s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2010/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2010/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/t
-exlive/2010/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/
-texlive/2010/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/t
-exlive/2010/texmf-dist/fonts/type1/public/fourier/fourier-orns.pfb></usr/local/
-texlive/2010/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive
-/2010/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2010/t
-exmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2010/texmf-di
-st/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on master.pdf (56 pages, 360908 bytes).
+exlive/2010/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/local/te
+xlive/2010/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/t
+exlive/2010/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/te
+xlive/2010/texmf-dist/fonts/type1/public/fourier/fourier-orns.pfb></usr/local/t
+exlive/2010/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/
+2010/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2010/te
+xmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2010/texmf-dis
+t/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2010/texmf-dist/font
+s/type1/urw/courier/ucrr8a.pfb>
+Output written on master.pdf (79 pages, 436717 bytes).
 PDF statistics:
- 222 PDF objects out of 1000 (max. 8388607)
- 154 compressed objects within 2 object streams
+ 305 PDF objects out of 1000 (max. 8388607)
+ 211 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
